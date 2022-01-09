@@ -1,0 +1,158 @@
+.HeroSectionContainer{
+    block-size: 476px;
+    inline-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    padding-block-start: 66px;
+
+    position: relative;
+
+    background-image: url('./../../../assets//img/Backdround Pintura Low v1 .jpg');
+    background-size: 847px 476px;
+    background-repeat: no-repeat;
+    background-position: -147px 100%;
+    
+    overflow-x: hidden;
+}
+
+.HeroSectionContainer .TitleContainerShadow{
+    inline-size: 260px;
+    block-size: 86px; 
+    filter: drop-shadow( var(--elevation-right-1));
+}
+
+.HeroSectionContainer .TitleContainerShadow .TitleContainer{
+    inline-size: 100%;
+    block-size: 100%; 
+    
+    background-color: var(--background);  
+
+    clip-path: polygon(12% 6%, 100% 0, 100% 66%, 0 100%);
+}
+
+.HeroSectionContainer .TitleContainerShadow .TitleContainer h1{
+    
+    padding-block-start: 10px;
+    padding-inline-start: 40px;
+
+    color: var(--primary-color);
+    font-size: var(--font-size-medium-tall);
+}
+
+.HeroSectionContainer .Stack{
+    
+    inline-size: 360px;
+    block-size: 280px;
+
+    position: relative;
+}
+
+.HeroSectionContainer .Stack div.Positioned:nth-of-type(1){
+    inline-size: 220px;
+    block-size: 156px;
+
+    position: absolute;
+    left: 16%;
+    top: 12px;
+    z-index: 2;
+
+    box-shadow: var(--elevation-1);
+
+    border-radius: 16px;
+
+    filter: saturate(80%);
+}
+
+.HeroSectionContainer .Stack div.Positioned:nth-of-type(1) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 16px;
+
+    object-fit: cover;
+
+   
+}
+
+.HeroSectionContainer .Stack div.Positioned:nth-of-type(2){
+    
+    inline-size: 220px;
+    block-size: 156px; 
+
+    position: absolute;
+    left: 23%;
+    top: 32px;
+    z-index: 1;
+
+    border-radius: 16px;
+
+    box-shadow: var(--elevation-1);
+
+    background-image: linear-gradient(to bottom, #c5c5c511,#3D11A6);
+    
+}
+
+
+.HeroSectionContainer .Stack div.Positioned:nth-of-type(3){
+    inline-size: 128px;
+    block-size: 90px;
+
+    position: absolute;
+    left: 55%;
+    top: 115px;
+    z-index: 4;
+
+    border-radius: 11px;
+
+    box-shadow: var(--elevation-right-3);
+    
+}
+
+.HeroSectionContainer .Stack div.Positioned:nth-of-type(3) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 11px;
+
+    object-position: 0px 0px;
+    object-fit: cover;
+    
+}
+
+.HeroSectionContainer .Stack div.Positioned:nth-of-type(4){
+    inline-size: 128px;
+    block-size: 90px;
+    
+    position: absolute;
+    z-index: 3;
+    left: 46%;
+    top: 160px;
+
+    border-radius: 11px;
+
+    box-shadow: var(--elevation-1);
+
+    background-image: linear-gradient(to bottom, #c5c5c511,#3D11A6);
+
+}
+
+.HeroSectionContainer .Stack h2 {
+    inline-size: 100%;
+
+    position: absolute;
+    left: 7%;
+    top: 185px;
+    z-index: 5;
+
+    color: white;
+    font-size: var(--font-size-tall);
+    font-weight: var(--font-weight-black);
+    text-shadow: var(--elevation-2);
+}
+
