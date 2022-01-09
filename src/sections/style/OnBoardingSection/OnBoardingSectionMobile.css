@@ -343,7 +343,7 @@
 
     position: relative;
 
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .OnBoardingSection .StackThird div.Positioned:nth-of-type(1){
@@ -351,13 +351,13 @@
     block-size: 161px;
 
     position: absolute;
-    left: 18%;
-    top: 45px;
+    left: 50%;
+    top: 0px;
     z-index: 4;
 
-    box-shadow: var(--elevation-right-3);
+    box-shadow: var(--elevation-right-1);
 
-    border-radius: 19px;
+    border-radius: 15px;
 }
 
 .OnBoardingSection .StackThird div.Positioned:nth-of-type(1) img
@@ -365,7 +365,7 @@
     inline-size: 100%;
     block-size: 100%;
 
-    border-radius: 19px;
+    border-radius: 15px;
 
     object-fit: cover;
 
@@ -378,13 +378,14 @@
     block-size: 335px; 
 
     position: absolute;
-    left: 28%;
-    top: -20px;
+    left: -70px;
+    top: -10px;
     z-index: 1;
 
 
     background-image: url("../../../assets/img/paint-2090112_1920\ Low.png");
-
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
@@ -393,11 +394,11 @@
     block-size: 161px;
 
     position: absolute;
-    left: 30%;
+    left: 25%;
     top: 50px;
     z-index: 2;
 
-    border-radius: 26px;
+    border-radius: 15px;
 
     box-shadow: var(--elevation-2);
     
@@ -408,7 +409,7 @@
     inline-size: 100%;
     block-size: 100%;
 
-    border-radius: 26px;
+    border-radius: 15px;
 
     object-position: 0px 0px;
     object-fit: cover;
@@ -421,7 +422,7 @@
 
     position: absolute;
     left: 0%;
-    top: 205px;
+    top: 225px;
     z-index: 5;
 
     text-align: center;
@@ -445,8 +446,8 @@
 
     position: absolute;
 
-    left: 210px;
-    top: 340px;
+    left: -10px;
+    top: 375px;
 
     background-color: rgba(255, 255, 255, 0);
 

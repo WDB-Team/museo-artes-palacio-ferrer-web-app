@@ -25,9 +25,9 @@ export default class OnBoardingSection extends Component {
                     <div className = "Positioned"></div>
                     <div className = "Positioned"><img src={img2} alt="" width="200px" height="200px" /></div>
                     <div className = "Positioned"></div>
-                    <div className = "SloganContainer">
+                   
                     <h2>Viaja entre las maravillas del arte <br /> y la cultura cubana <br /> a traves de nuestras salas  <br /> y exhibiciones</h2>
-                    </div>
+                    
                     <button>Enseñame más</button>
                     <div className="DecoratedSeparatorMiddle"></div>
                 </div>
@@ -39,9 +39,9 @@ export default class OnBoardingSection extends Component {
                     <div className = "Positioned"></div>
                     <div className = "Positioned"><img src={img4} alt="" width="200px" height="200px" /></div>
                     <div className = "Positioned"></div>
-                    <div className = "SloganContainer">
+                    
                     <h2>Accede a mas de cien años <br /> de Historia <br /> esperando a ser descubiertos  <br /> y recordados</h2>
-                    </div>
+                    
                     <button>Enseñame más</button>
                     <div className="DecoratedSeparatorMiddleSecond"></div>
                 </div>
@@ -50,15 +50,12 @@ export default class OnBoardingSection extends Component {
                     <div className = "Positioned"><img src={img5} alt="" width="200px" height="200px" /></div>
                     <div className = "Positioned"></div>
                     <div className = "Positioned"><img src={img6} alt="" width="200px" height="200px" /></div>
-                    <div className = "SloganContainer">
+                    
                     <h2>Observe los matices <br /> de la vida <br /> mientras Cienfuegos <br /> te enamora</h2>
-                    </div>
+                    
                     <button>Enseñame más</button>
                 
                 </div>
-
-                
-
 
             </div>
         );
