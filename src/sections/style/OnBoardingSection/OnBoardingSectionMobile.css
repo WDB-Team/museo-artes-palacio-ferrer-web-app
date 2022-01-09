@@ -24,6 +24,7 @@
 
 }
 
+/***************************************************************/
 .OnBoardingSection .Stack{
     
     inline-size: 360px;
@@ -44,8 +45,6 @@
     box-shadow: var(--elevation-3);
 
     border-radius: 13px;
-
-    filter: saturate(80%);
 }
 
 .OnBoardingSection .Stack div.Positioned:nth-of-type(1) img
@@ -152,7 +151,7 @@
     left: -8px;
     top: 330px;
 
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
 
     color: var(--primary-variant);
     font-size: var(--font-size-small-medium);
@@ -161,18 +160,298 @@
 }
 
 
-.OnBoardingSection .DecoratedSeparatorMiddle{
+.OnBoardingSection .Stack .DecoratedSeparatorMiddle{
 
     inline-size: 494;
     block-size: 134px;
 
     position: relative;
-    top: -80px;
+    top: 330px;
     background-color: #A7A7A7;
 
     mask-image: url("./../../../assets/svg/Motivo para separacion 1.svg");
     mask-repeat: no-repeat;
     mask-size: 130%;
     mask-position: center;
+
+}
+
+/***************************************************************/
+
+.OnBoardingSection .StackSecond{
+    
+    inline-size: 360px;
+    block-size: 457px;
+
+    position: relative;
+
+    margin-top: 50px;
+}
+
+.OnBoardingSection .StackSecond div.Positioned:nth-of-type(1){
+    inline-size: 110px;
+    block-size: 82px;
+
+    position: absolute;
+    left: 12%;
+    top: 45px;
+    z-index: 4;
+
+    box-shadow: var(--elevation-right-3);
+
+    border-radius: 19px;
+}
+
+.OnBoardingSection .StackSecond div.Positioned:nth-of-type(1) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 19px;
+
+    object-fit: cover;
+
+   
+}
+
+.OnBoardingSection .StackSecond div.Positioned:nth-of-type(2){
+    
+    inline-size: 249px;
+    block-size: 185px; 
+
+    position: absolute;
+    left: 22%;
+    top: -20px;
+    z-index: 1;
+
+
+    background-color: #8AB0AF;
+    mask-image: url("./../../../assets/svg/Mancha de Pintura Pequeña.svg"); 
+    mask-repeat: no-repeat;
+    mask-size: cover;
+}
+
+
+.OnBoardingSection .StackSecond div.Positioned:nth-of-type(3){
+    inline-size: 188px;
+    block-size: 141px;
+
+    position: absolute;
+    left: 24%;
+    top: 50px;
+    z-index: 2;
+
+    border-radius: 26px;
+
+    box-shadow: var(--elevation-2);
+    
+}
+
+.OnBoardingSection .StackSecond div.Positioned:nth-of-type(3) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 26px;
+
+    object-position: 0px 0px;
+    object-fit: cover;
+    
+}
+
+.OnBoardingSection .StackSecond div.Positioned:nth-of-type(4){
+    inline-size: 188px;
+    block-size: 139px;
+    
+    position: absolute;
+    z-index: 3;
+    left: 43%;
+    top: -20px;
+
+    background-color: var(--secondary-variant);
+    mask-image: url("./../../../assets/svg/Mancha de Pintura Pequeña.svg"); 
+    mask-repeat: no-repeat;
+    mask-size: cover;
+}
+
+.OnBoardingSection .StackSecond h2 {
+    inline-size: 100%;
+
+    position: absolute;
+    left: 0%;
+    top: 205px;
+    z-index: 5;
+
+    text-align: center;
+    color: var(--primary-variant);
+    font-size: var(--font-size-medium-tall);
+    font-weight: var(--font-weight-bold);
+    
+}
+
+.OnBoardingSection .StackSecond button{
+
+    inline-size: 157px;
+    block-size: 30px;
+
+
+    padding-inline-start: 4px;
+
+
+    border: 3px solid var(--primary-variant);
+    border-radius: 6px;
+
+    position: absolute;
+
+    left: 210px;
+    top: 340px;
+
+    background-color: rgba(255, 255, 255, 0);
+
+    color: var(--primary-variant);
+    font-size: var(--font-size-small-medium);
+    font-weight: var(--font-weight-bold);
+
+}
+
+
+.OnBoardingSection .StackSecond .DecoratedSeparatorMiddleSecond{
+
+    inline-size: 494;
+    block-size: 134px;
+
+    position: relative;
+    top: 340px;
+    
+    transform: rotateZ(-8deg) rotateX(180deg);
+
+    background-color: #A7A7A7;
+
+    mask-image: url("./../../../assets/svg/Motivo para separacion 1.svg");
+    mask-repeat: no-repeat;
+    mask-size: 130%;
+    mask-position: center;
+
+}
+
+/***************************************************************/
+
+.OnBoardingSection .StackThird{
+    
+    inline-size: 360px;
+    block-size: 457px;
+
+    position: relative;
+
+    margin-top: 50px;
+}
+
+.OnBoardingSection .StackThird div.Positioned:nth-of-type(1){
+    inline-size: 97px;
+    block-size: 161px;
+
+    position: absolute;
+    left: 18%;
+    top: 45px;
+    z-index: 4;
+
+    box-shadow: var(--elevation-right-3);
+
+    border-radius: 19px;
+}
+
+.OnBoardingSection .StackThird div.Positioned:nth-of-type(1) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 19px;
+
+    object-fit: cover;
+
+   
+}
+
+.OnBoardingSection .StackThird div.Positioned:nth-of-type(2){
+    
+    inline-size: 335px;
+    block-size: 335px; 
+
+    position: absolute;
+    left: 28%;
+    top: -20px;
+    z-index: 1;
+
+
+    background-image: url("../../../assets/img/paint-2090112_1920\ Low.png");
+
+}
+
+
+.OnBoardingSection .StackThird div.Positioned:nth-of-type(3){
+    inline-size: 214px;
+    block-size: 161px;
+
+    position: absolute;
+    left: 30%;
+    top: 50px;
+    z-index: 2;
+
+    border-radius: 26px;
+
+    box-shadow: var(--elevation-2);
+    
+}
+
+.OnBoardingSection .StackThird div.Positioned:nth-of-type(3) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 26px;
+
+    object-position: 0px 0px;
+    object-fit: cover;
+    
+}
+
+
+.OnBoardingSection .StackThird h2 {
+    inline-size: 100%;
+
+    position: absolute;
+    left: 0%;
+    top: 205px;
+    z-index: 5;
+
+    text-align: center;
+    color: var(--primary-variant);
+    font-size: var(--font-size-medium-tall);
+    font-weight: var(--font-weight-bold);
+    
+}
+
+.OnBoardingSection .StackThird button{
+
+    inline-size: 157px;
+    block-size: 30px;
+
+
+    padding-inline-start: 4px;
+
+
+    border: 3px solid var(--primary-variant);
+    border-radius: 6px;
+
+    position: absolute;
+
+    left: 210px;
+    top: 340px;
+
+    background-color: rgba(255, 255, 255, 0);
+
+    color: var(--primary-variant);
+    font-size: var(--font-size-small-medium);
+    font-weight: var(--font-weight-bold);
 
 }
