@@ -1,0 +1,62 @@
+.HeaderContainer{
+
+    block-size: 66px;
+    inline-size: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    z-index: 10;
+}
+
+.HeaderContainer .Logo{
+    block-size: 48px;
+    inline-size: 48px;
+
+    display: block;
+
+    margin-inline-start: 8px;
+
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.HeaderContainer .Logo span{
+    inline-size: 100%;
+    block-size: 100%;
+
+    display: block;
+
+    background-color: var(--primary-color);
+
+    mask-image: url('./../../../assets/svg/Logo.svg');
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+}
+
+.HeaderContainer .Menu{
+    block-size: 48px;
+    inline-size: 48px;
+
+    display: block;
+
+    margin-inline-end: 8px;
+
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.HeaderContainer .Menu span{
+    inline-size: 100%;
+    block-size: 100%;
+
+    display: block;
+
+    background-color: var(--primary-color);
+
+    mask-image: url('./../../../assets/svg/menu_black_rounded_48dp.svg');
+    mask-repeat: no-repeat;
+    mask-size: 60%;
+    mask-position: center;
+}

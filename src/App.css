@@ -2,13 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
+    border: none;
+
 }
+
+
 
 :root{
 
     --primary-color : #688BB3 ;
     --primary-variant : #38526F;
     --on-primary : #FFFFFF;
+
+    --secondary-color : #ECE708;
+    --secondary-variant : #C8924A;
+    --on-secondary : #FFFFFF;
 
     --background: #F8FDF6;
     --on-background: #3B3B30;
@@ -24,7 +33,7 @@
     --elevation-right-3 : 3px 3px 6px rgba(0, 0, 0, 0.555); 
     
     --font-size-tall: 26px;
-    --font-size-medium-tall: 18px;
+    --font-size-medium-tall: 20px;
     --font-size-medium : 18px;
     --font-size-small-medium: 16px;
     --font-size-small : 14px;
@@ -41,4 +50,10 @@ html{
 .App{
     block-size: 100vh;
     inline-size: 100vw;
+
+    background-color: var(--background);
+
+    position: relative;
+
+    overflow-x: hidden;
 }

@@ -29,14 +29,14 @@
     inline-size: 100%;
     block-size: 100%; 
     
-    background-color: var(--background);  
+    background-color: var(--surface);  
 
     clip-path: polygon(12% 6%, 100% 0, 100% 66%, 0 100%);
 }
 
 .HeroSectionContainer .TitleContainerShadow .TitleContainer h1{
     
-    padding-block-start: 10px;
+    padding-block-start: 12px;
     padding-inline-start: 40px;
 
     color: var(--primary-color);
