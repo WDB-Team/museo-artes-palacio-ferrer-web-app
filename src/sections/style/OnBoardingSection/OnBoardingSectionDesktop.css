@@ -1,0 +1,611 @@
+@media (min-width : 1024px){
+
+    .OnBoardingSection .DecoratedSeparatorTop{
+
+        inline-size: 100%;
+        block-size: 126px;
+    
+        position: absolute;
+        top: -180px;
+    
+        background-color: var(--background);
+    
+        mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
+        mask-repeat: no-repeat;
+        mask-size: 120%;
+        mask-position: center;
+    
+    }
+    
+    
+    .OnBoardingSection .OnBoardingItem{
+        inline-size: 100%;
+        block-size: 456px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    
+    
+        margin-block-start: 100px;
+        position: relative;
+    }
+    .OnBoardingSection  .OnBoardingItem .Stack{
+        
+        inline-size: 941px;
+        block-size: 805px;
+    
+        position: absolute;
+        left: 50px;
+
+        transform-origin: top left;
+        transform: scale(0.5);
+
+    }
+    
+    
+    .OnBoardingSection .OnBoardingItem .Stack div.Positioned:nth-of-type(1){
+        inline-size: 435px;
+        block-size: 325px;
+    
+        position: absolute;
+        left: 10%;
+        top: 100px;
+        z-index: 3;
+    
+        box-shadow: var(--elevation-3);
+    
+        border-radius: 76px;
+    }
+    
+    .OnBoardingSection .OnBoardingItem .Stack div.Positioned:nth-of-type(1) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 76px;
+    
+        object-fit: cover;
+    
+       
+    }
+    
+    .OnBoardingSection .OnBoardingItem .Stack div.Positioned:nth-of-type(2){
+        
+        inline-size: 1106px;
+        block-size: 805px; 
+    
+        position: absolute;
+        left: -40%;
+        top: -60px;
+        z-index: 1;
+    
+    
+        background-color: var(--primary-color);
+        mask-image: url("./../../../assets/svg/Mancha de Pintura mediana.svg"); 
+        mask-repeat: no-repeat;
+        mask-size: cover;
+    }
+    
+    
+    .OnBoardingSection .OnBoardingItem .Stack div.Positioned:nth-of-type(3){
+        inline-size: 562px;
+        block-size: 421px;
+    
+        position: absolute;
+        left: 33%;
+        top: 275px;
+        z-index: 2;
+    
+        border-radius: 69px;
+    
+        box-shadow: var(--elevation-1);
+        
+    }
+    
+    .OnBoardingSection .OnBoardingItem .Stack div.Positioned:nth-of-type(3) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius:69px;
+    
+        object-position: 0px 0px;
+        object-fit: cover;
+        
+    }
+    
+    .OnBoardingSection .OnBoardingItem .Stack div.Positioned:nth-of-type(4){
+        inline-size: 1106px;
+        block-size: 805px;
+        
+        position: absolute;
+        z-index: 4;
+        left: -60%;
+        top: 200px;
+    
+        background-color: var(--secondary-color);
+        mask-image: url("./../../../assets/svg/Mancha de Pintura mediana.svg"); 
+        mask-repeat: no-repeat;
+        mask-size: cover;
+    }
+    
+    
+    
+    .OnBoardingSection .OnBoardingItem .Content{
+        block-size: 100%;
+        inline-size: 87%;
+    
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: flex-start;
+        align-items: center;
+    
+        position: relative;
+        right: 50px;
+
+        transform-origin: top right;
+        transform: scale(0.5);
+    
+    }
+    
+    
+    .OnBoardingSection .OnBoardingItem .Content h2 {
+        inline-size: 100%;
+    
+        position: static;
+    
+        text-align: center;
+        color: var(--primary-variant);
+        font-size: 47px;
+        font-weight: var(--font-weight-bold);
+        
+    }
+    
+    .OnBoardingSection .OnBoardingItem .Content h2 br:nth-of-type(3){
+        display: none;
+    }
+    
+    .OnBoardingSection .OnBoardingItem .Content p{
+        margin-block-start: 60px;
+        inline-size: 80%;
+        font-size: 27px;
+    }
+    
+    .OnBoardingSection .OnBoardingItem .Content button{
+    
+        inline-size: 246px;
+        block-size: 46px;
+    
+    
+        position: static;
+    
+        margin-block-start: 50px;
+        padding-inline-start: 4px;
+    
+    
+        border: 2px solid var(--primary-variant);
+        border-radius: 6px;
+    
+        background-color: rgba(255, 255, 255, 0);
+    
+        color: var(--primary-variant);
+        font-size: 27px;
+        font-weight: var(--font-weight-bold);
+    
+    }
+    
+    
+    .OnBoardingSection .OnBoardingItem .DecoratedSeparatorMiddle{
+    
+        inline-size: 2419px;
+        block-size: 658px;
+    
+        position: absolute;
+        left: -750px;
+        top: 130px;
+        background-color: #A7A7A7;
+    
+        mask-image: url("./../../../assets/svg/Motivo para separacion 1.svg");
+        mask-repeat: no-repeat;
+        mask-size: 100%;
+        mask-position: center;
+        
+        transform-origin: center;
+        transform: scale(0.7);
+    }
+    
+    .OnBoardingSection .OnBoardingItemTwo{
+        inline-size: 100%;
+        block-size:  441px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+    
+        margin-block-start: 100px;
+        position: relative;
+    }
+    
+    
+    .OnBoardingSection .OnBoardingItemTwo .Stack {
+        
+        inline-size: 976px;
+        block-size: 741px;
+    
+        position: absolute;
+        right: 40px;
+        order: 1;
+
+        transform-origin: top right;
+        transform: scale(0.5);
+    }
+    
+    .OnBoardingSection .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(1){
+        inline-size: 374px;
+        block-size: 280px;
+    
+        position: absolute;
+        left: auto;
+        right: 59%;
+        top: 40px;
+        z-index: 4;
+    
+        box-shadow: var(--elevation-right-3);
+    
+        border-radius: 107px;
+    }
+    
+    .OnBoardingSection .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(1) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 107px;
+    
+        object-fit: cover;
+    
+       
+    }
+    
+    .OnBoardingSection .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(2){
+        
+        inline-size: 849px;
+        block-size: 630px; 
+    
+        position: absolute;
+        left: auto;
+        right: -3%;
+        top: -178px;
+        z-index: 1;
+    
+    
+        background-color: #8AB0AF;
+        mask-image: url("./../../../assets/svg/Mancha de Pintura Pequeña.svg"); 
+        mask-repeat: no-repeat;
+        mask-size: cover;
+    }
+    
+    
+    .OnBoardingSection .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(3){
+        inline-size: 640px;
+        block-size: 479px;
+    
+        position: absolute;
+        left: auto;
+        right: 16%;
+        top: 60px;
+        z-index: 2;
+    
+        border-radius: 134px;
+    
+        box-shadow: var(--elevation-2);
+        
+    }
+    
+    .OnBoardingSection .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(3) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 134px;
+    
+        object-position: 0px 0px;
+        object-fit: cover;
+        
+    }
+    
+    .OnBoardingSection .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(4){
+        inline-size: 640px;
+        block-size: 475px;
+        
+        position: absolute;
+       
+        left: auto;
+        right: -7%;
+        top: -175px;
+    
+        z-index: 3;
+    
+        background-color: var(--secondary-variant);
+        mask-image: url("./../../../assets/svg/Mancha de Pintura Pequeña.svg"); 
+        mask-repeat: no-repeat;
+        mask-size: cover;
+    }
+    
+    .OnBoardingSection .OnBoardingItemTwo .Content{
+        block-size: 100%;
+        inline-size: 92%;
+    
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: flex-start;
+        align-items: center;
+    
+        padding-block-start: 40px;
+    
+        position: relative;
+        right: 60px;
+        z-index: 1;
+
+        transform-origin: top left;
+        transform: scale(0.5);
+    }
+    
+    .OnBoardingSection .OnBoardingItemTwo .Content h2 {
+        inline-size: 100%;
+    
+        position: relative;
+    
+        top: 13px;
+        left: 50px;
+        
+        transform: rotateZ(-9deg);
+    
+        text-align: center;
+        color: var(--primary-variant);
+        font-size: 47px;
+        font-weight: var(--font-weight-bold);
+        
+    }
+    
+    .OnBoardingSection .OnBoardingItemTwo .Content h2 br:nth-of-type(1),.OnBoardingSection .OnBoardingItemTwo .Content h2 br:nth-of-type(3){
+    display: none;
+    }
+    
+    .OnBoardingSection .OnBoardingItemTwo .Content p{
+        
+        inline-size: 55%;
+    
+        align-self: flex-end;
+    
+        margin-block-start: 100px;
+        margin-inline-end: 40px;
+        font-size: 27px;
+    }
+    
+    
+    .OnBoardingSection .OnBoardingItemTwo .Content button{
+    
+        inline-size: 246px;
+        block-size: 46px;
+    
+    
+        margin-block-start: 40px;
+        margin-inline-start: 60px;
+        padding-inline-start: 4px;
+    
+    
+        border: 2px solid var(--primary-variant);
+        border-radius: 6px;
+    
+        position: static;
+    
+        background-color: rgba(255, 255, 255, 0);
+    
+        color: var(--primary-variant);
+        font-size: 27px;
+        font-weight: var(--font-weight-bold);
+    
+    }
+    
+    .OnBoardingSection .OnBoardingItemTwo .DecoratedSeparatorMiddleSecond{
+    
+        inline-size: 2419px;
+        block-size: 658px;
+    
+    
+        position: absolute;
+        left: -55%;
+        top: 100px;
+        transform-origin: center;
+        transform: rotateZ(-8deg) rotateX(180deg) scale(0.7);
+    
+        background-color: #A7A7A7;
+    
+        mask-image: url("./../../../assets/svg/Motivo para separacion 1.svg");
+        mask-repeat: no-repeat;
+        mask-size: 100%;
+        mask-position: center;
+
+        
+        
+    
+    }
+    
+    .OnBoardingSection .OnBoardingItemThree{
+        inline-size: 100%;
+        block-size:  555px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+    
+        margin-block-start: 80px;
+        position: relative;
+    }
+    
+    .OnBoardingSection .OnBoardingItemThree .Stack {
+        
+        inline-size: 846px;
+        block-size: 830px;
+    
+        position: absolute;
+
+        transform-origin: top left;
+        transform: scale(0.5);
+    }
+    
+    .OnBoardingSection .OnBoardingItemThree .Stack  div.Positioned:nth-of-type(1){
+        inline-size: 293px;
+        block-size: 489px;
+    
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        z-index: 4;
+    
+        box-shadow: var(--elevation-right-1);
+    
+        border-radius: 55px;
+    }
+    
+    .OnBoardingSection .OnBoardingItemThree .Stack  div.Positioned:nth-of-type(1) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 55px;
+    
+        object-fit: cover;
+    
+       
+    }
+    
+    .OnBoardingSection .OnBoardingItemThree .Stack  div.Positioned:nth-of-type(2){
+        
+        inline-size: 1020px;
+        block-size: 1020px; 
+    
+        position: absolute;
+        left: -300px;
+        top: -10px;
+        z-index: 1;
+    
+        background-image: url("../../../assets/img/paint-2090112_1920High.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    
+    .OnBoardingSection .OnBoardingItemThree .Stack  div.Positioned:nth-of-type(3){
+        inline-size: 653px;
+        block-size: 490px;
+    
+        position: absolute;
+        left: 15%;
+        top: 250px;
+        z-index: 2;
+    
+        border-radius: 98px;
+    
+        box-shadow: var(--elevation-2);
+        
+    }
+    
+    .OnBoardingSection .OnBoardingItemThree .Stack  div.Positioned:nth-of-type(3) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 98px;
+    
+        object-position: 0px 0px;
+        object-fit: cover;
+        
+    }
+    .OnBoardingSection .OnBoardingItemThree .Content{
+        block-size: 100%;
+        inline-size: 92%;
+    
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: flex-start;
+        align-items: center;
+    
+        padding-block-start: 100px;
+    
+        position: relative;
+    
+        z-index: 1;
+
+        transform-origin: top right;
+        transform: scale(0.5);
+    }
+    
+    .OnBoardingSection .OnBoardingItemThree .Content h2 {
+        inline-size: 100%;
+    
+        margin-inline-end: 30px;
+    
+        position: static;
+    
+        transform: rotateZ(4deg);
+    
+        text-align: center;
+        color: var(--primary-variant);
+        font-size: 61px;
+        font-weight: var(--font-weight-bold);
+        
+    }
+    
+    .OnBoardingSection .OnBoardingItemThree .Content h2 br:nth-of-type(1),.OnBoardingSection .OnBoardingItemThree .Content h2 br:nth-of-type(3){
+        display: none;
+        }
+    
+    .OnBoardingSection .OnBoardingItemThree .Content p{
+        inline-size: 46%;
+        margin-block-start: 100px;
+        font-size: 27px;
+    }
+    
+    
+    .OnBoardingSection .OnBoardingItemThree .Content button{
+    
+        inline-size: 246px;
+        block-size: 46px;
+    
+        margin-block-start: 50px;
+        padding-inline-start: 4px;
+    
+    
+        border: 2px solid var(--primary-variant);
+        border-radius: 6px;
+    
+        position: static;
+    
+        background-color: rgba(255, 255, 255, 0);
+    
+        color: var(--primary-variant);
+        font-size: 27px;
+        font-weight: var(--font-weight-bold);
+    
+    }
+    
+    .OnBoardingSection .Content p{
+        display: block;
+    }
+    
+
+ }
+
+ @media (min-width : 1280px){
+
+
+ }
+

@@ -16,7 +16,6 @@
     background-repeat: no-repeat;
     background-position: -147px 100%;
     
-    overflow-x: hidden;
 }
 
 .HeroSectionContainer .TitleContainerShadow{
@@ -42,6 +41,7 @@
     color: var(--primary-color);
     font-size: var(--font-size-medium-tall);
 }
+
 
 .HeroSectionContainer .Stack{
     
@@ -75,8 +75,6 @@
     border-radius: 16px;
 
     object-fit: cover;
-
-   
 }
 
 .HeroSectionContainer .Stack div.Positioned:nth-of-type(2){

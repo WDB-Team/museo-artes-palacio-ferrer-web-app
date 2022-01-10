@@ -7,7 +7,12 @@
 
 }
 
+/******Comentar esta regla para produccion*********/
+*{
+    transition: all ease 500ms;
+}
 
+/*************/
 
 :root{
 

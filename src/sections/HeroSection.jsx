@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 
 import './style/HeroSection/HeroSectionMobile.css';
+import './style/HeroSection/HeroSectionDesktop.css';
 
 import img1 from '../assets/img/vue-exterieure Low v1.jpg';
+import img1High from '../assets/img/vue-exterieureHightv1.jpg';
+
 import img2 from '../assets/img/the-tower Low v1.jpg';
+import img2High from '../assets/img/the-towerHightv1.jpg';
 
 
 export default class HeroSection extends Component {
@@ -18,14 +22,29 @@ export default class HeroSection extends Component {
                     </div>
                 </div>
 
-                <div className = "Stack">
-                    <div className = "Positioned"><img src={img1} alt="" width="200px" height="200px" /></div>
-                    <div className = "Positioned"></div>
-                    <div className = "Positioned"><img src={img2} alt="" width="200px" height="200px" /></div>
-                    <div className = "Positioned"></div>
-                    <div className = "SloganContainer">
-                    <h2>El vínculo con el arte, la <br /> historia y la cultura</h2>
+                <div className = "StackContainer">
+                    <div className = "Stack">
+                        <div className = "Positioned">
+                        <picture>
+                            <source srcSet={img1High} media="(min-width : 768px)" />
+                            <img src={img1} alt="" width="200px" height="200px" />
+                        </picture>
+                            
+                        </div>
+                        <div className = "Positioned"></div>
+                        <div className = "Positioned">
+                        <picture>
+                            <source srcSet={img2High} media="(min-width : 768px)" />
+                            <img src={img2} alt="" width="200px" height="200px" />
+                        </picture>
+                            
+                        </div>
+                        <div className = "Positioned"></div>
+                        <div className = "SloganContainer">
+                        <h2>Un vínculo con el arte, la <br /> historia y la cultura</h2>
+                        </div>
                     </div>
+                    
                 </div>
 
             </div>

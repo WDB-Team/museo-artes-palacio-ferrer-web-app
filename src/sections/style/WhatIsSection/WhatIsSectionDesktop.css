@@ -1,0 +1,238 @@
+.WhatIsSection{
+    position: relative;
+
+    padding-block-start: 60px;
+
+    background-image: url("./../../../assets/img/Backdround Pintura Rotate Low v1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1369px 836px;
+    background-position: -350px 0px;
+}
+
+.WhatIsSection .DecoratedSeparatorTop{
+
+    inline-size: 100%;
+    block-size: 37px;
+
+    position: absolute;
+    top: -16px;
+
+    transform: rotateZ(1deg) rotateX(180deg);
+    background-color: var(--background);
+
+    mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
+    mask-repeat: no-repeat;
+    mask-size: 170%;
+    mask-position: -100px;
+
+}
+
+.WhatIsSection .TitleContainerShadow{
+    inline-size: 260px;
+    block-size: 86px; 
+    filter: drop-shadow( var(--elevation-right-1));
+}
+
+
+.WhatIsSection .TitleContainerShadow .TitleContainer{
+    inline-size: 100%;
+    block-size: 100%; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    background-color: var(--surface);  
+
+    clip-path: polygon(0% 70%, 100% 100%, 90% 10%, 0% 5%);
+    /*12% 6%, 100% 0, 100% 66%, 0 100%*/
+}
+
+.WhatIsSection .TitleContainerShadow .TitleContainer > span{
+
+    block-size: 53px;
+    inline-size: 53px;
+
+    display: block;
+
+    margin-bottom: 18px;
+
+    background-color: var(--on-surface);
+  
+    mask-image: url('./../../../assets/svg/Logo.svg');
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+
+}
+
+.WhatIsSection .TitleContainerShadow .TitleContainer h1{
+    
+    
+    color: var(--on-surface);
+    font-size: var(--font-size-medium-tall);
+    
+
+}
+
+.WhatIsSection .TitleContainerShadow .TitleContainer h1 span{
+    
+    position: relative;
+    left: 123px;
+
+}
+
+
+/***************************************************************/
+.WhatIsSection .Stack{
+    
+    inline-size: 360px;
+    block-size: 282px;
+
+    position: relative;
+}
+
+.WhatIsSection .Stack div.Positioned:nth-of-type(1){
+    inline-size: 219px;
+    block-size: 140px;
+
+    position: absolute;
+    left: 16%;
+    top: 30px;
+    z-index: 1;
+
+    box-shadow: var(--elevation-2);
+
+    border-radius: 15px;
+}
+
+.WhatIsSection .Stack div.Positioned:nth-of-type(1) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 15px;
+
+    object-fit: cover;
+
+}
+
+.WhatIsSection .Stack div.Positioned:nth-of-type(2){
+    
+    inline-size: 263px;
+    block-size: 263px; 
+
+    position: absolute;
+    left: 0%;
+    top: 70px;
+    z-index: 2;
+
+
+    background-color: black;
+    mask-image: url("./../../../assets/img/paint-2209578_1920 Low.png"); 
+    mask-repeat: no-repeat;
+    mask-size: cover;
+}
+
+
+.WhatIsSection .Stack div.Positioned:nth-of-type(3){
+    inline-size: 157px;
+    block-size: 88px;
+
+    position: absolute;
+    left: 40%;
+    top: 115px;
+    z-index: 3;
+
+    border-radius: 10px;
+
+    box-shadow: var(--elevation-right-3);
+    
+}
+
+.WhatIsSection .Stack div.Positioned:nth-of-type(3) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 10px;
+
+    object-position: 0px 0px;
+    object-fit: cover;
+    
+}
+
+
+.WhatIsSection .Stack h2 {
+    inline-size: 100%;
+
+    position: absolute;
+    left: 0%;
+    top: 205px;
+    z-index: 5;
+
+    text-align: center;
+    color: var(--primary-variant);
+    font-size: var(--font-size-medium-tall);
+    font-weight: var(--font-weight-bold);
+    
+}
+
+
+
+.WhatIsSection .Stack .DecoratedSeparatorMiddle{
+
+    inline-size: 494;
+    block-size: 134px;
+
+    position: relative;
+    top: 330px;
+    background-color: #A7A7A7;
+
+    mask-image: url("./../../../assets/svg/Motivo para separacion 1.svg");
+    mask-repeat: no-repeat;
+    mask-size: 130%;
+    mask-position: center;
+
+}
+
+.WhatIsSection .Content{
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.WhatIsSection .Content p{
+
+    text-align: center;
+    font-size: 15;
+    font-weight: 500;
+
+    margin-block-end: 20px;
+}
+
+.WhatIsSection .Content button{
+
+    inline-size: 157px;
+    block-size: 30px;
+
+
+    padding-inline-start: 4px;
+    margin-block-end: 40px;
+
+    border: 3px solid var(--on-surface);
+    border-radius: 6px;
+
+
+    background-color: rgba(255, 255, 255, 0);
+
+    color: var(--on-surface);
+    font-size: var(--font-size-small-medium);
+    font-weight: var(--font-weight-bold);
+
+}

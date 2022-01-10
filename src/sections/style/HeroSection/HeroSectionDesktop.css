@@ -1,0 +1,245 @@
+
+/*El enfoque que segui fue crear la vista a un tamaño de 1920px por 1080px y 
+luego ir escalando los contenedores principales para aumentar la consistencia 
+del diseño y no tener que cambiar el layout*/
+
+
+@media (min-width : 1024px){    
+    .HeroSectionContainer{
+        block-size: 768px;
+        inline-size: 100vw;
+    
+        padding-block-start: 115px;
+        
+    
+        background-image: url('./../../../assets//img/Backdround Pintura Hight v1.jpg');
+        background-size: 1920px 1080px;
+        background-position: center;
+        
+    }
+
+    .HeroSectionContainer .TitleContainerShadow{
+        inline-size: 967px;
+        block-size: 322px; 
+        
+        transform-origin: top right;
+        transform: scale(0.55);
+    }
+    
+    .HeroSectionContainer .TitleContainerShadow .TitleContainer{
+        
+        display: grid;
+        place-items: center;
+
+    }
+    
+    .HeroSectionContainer .TitleContainerShadow .TitleContainer h1{
+        
+        padding-block-end: 70px;
+        padding-inline-start: 10px;
+    
+        font-size: 73px;
+    }
+
+    .HeroSectionContainer .StackContainer{
+        inline-size: 100%;
+        block-size: 620px;
+        position: absolute;
+    }
+   
+    .HeroSectionContainer .StackContainer .Stack{
+    
+        inline-size: 1920px;
+        block-size: 932px;
+    
+        position: relative;
+        top: 120px;    
+        transform-origin: top left;
+        transform: scale(0.55);
+    }
+    
+    .HeroSectionContainer .Stack div.Positioned:nth-of-type(1){
+        inline-size: 667px;
+        block-size: 471px;
+    
+        left: 5%;
+        top: 12px;
+      
+    
+    
+        border-radius: 20px;
+    }
+    
+    .HeroSectionContainer .Stack div.Positioned:nth-of-type(1) img
+    {
+        border-radius: 20px;     
+    }
+    
+    .HeroSectionContainer .Stack div.Positioned:nth-of-type(2){
+        
+        inline-size: 667px;
+        block-size: 471px; 
+    
+     
+        left: 10%;
+        top: 70px;
+ 
+    
+        border-radius: 20px;
+    }
+    
+    
+    .HeroSectionContainer .Stack div.Positioned:nth-of-type(3){
+        inline-size: 387px;
+        block-size: 273px;
+    
+
+        left: 27%;
+        top: 320px;
+  
+    
+        border-radius: 20px;
+        
+    }
+    
+    .HeroSectionContainer .Stack div.Positioned:nth-of-type(3) img
+    {
+        border-radius: 20px;
+    }
+    
+    .HeroSectionContainer .Stack div.Positioned:nth-of-type(4){
+        inline-size: 359px;
+        block-size: 254px;
+        
+        left: 25%;
+        top: 490px;
+    
+        border-radius: 20px;
+    }
+    
+    .HeroSectionContainer .Stack h2 {
+    
+        left: 27%;
+        top: 520px;
+        font-size: 104px;
+    }
+}
+
+@media (min-width : 1280px){
+ 
+    .HeroSectionContainer{
+        block-size: 800px;
+        inline-size: 100%;
+    
+        padding-block-start: 125px;
+        
+    }
+
+    .HeroSectionContainer .TitleContainerShadow{
+        inline-size: 967px;
+        block-size: 322px; 
+
+        transform: scale(0.6);
+    }
+    
+
+    .HeroSectionContainer .StackContainer{
+        block-size: 652px;
+    
+    }
+   
+    .HeroSectionContainer .StackContainer .Stack{
+    
+        top: 100px;    
+        transform: scale(0.6);
+    }
+  
+}
+
+@media (min-width : 1440px){
+    
+    .HeroSectionContainer{
+        block-size: 900px;
+        inline-size: 100%;
+    
+        padding-block-start: 135px;
+        
+    }
+
+    .HeroSectionContainer .TitleContainerShadow{
+        inline-size: 967px;
+        block-size: 322px; 
+
+        transform: scale(0.7);
+    }
+    
+
+    .HeroSectionContainer .StackContainer{
+        block-size: 752px;
+    
+    }
+   
+    .HeroSectionContainer .StackContainer .Stack{
+    
+        top: 100px;    
+        transform: scale(0.7);
+    }
+ }
+
+
+@media (min-width : 1600px){
+    
+    .HeroSectionContainer{
+        inline-size: 100%;
+    
+        padding-block-start: 145px;
+        
+    }
+
+    .HeroSectionContainer .TitleContainerShadow{
+        inline-size: 967px;
+        block-size: 322px; 
+
+        transform: scale(0.8);
+    }
+    
+   
+    .HeroSectionContainer .StackContainer .Stack{
+    
+        top: 0px;    
+        transform: scale(0.8);
+    }
+ }
+
+
+@media (min-width : 1920px){
+    
+    .HeroSectionContainer{
+        block-size: 1080px;
+        inline-size: 100%;
+    
+        padding-block-start: 155px;
+        
+    }
+
+    .HeroSectionContainer .TitleContainerShadow{
+        inline-size: 967px;
+        block-size: 322px; 
+
+        transform: scale(1);
+    }
+    
+
+    .HeroSectionContainer .StackContainer{
+        inline-size: 100%;
+        block-size: 932px;
+    
+    }
+   
+    .HeroSectionContainer .StackContainer .Stack{
+
+        top: 0;    
+        transform: scale(1);
+    }
+ }
+
