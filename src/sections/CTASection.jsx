@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import './style/CTASection.css';
+import './style/CTASectionMediaQuery.css';
 
 export default class CTASection extends Component {
     render() {

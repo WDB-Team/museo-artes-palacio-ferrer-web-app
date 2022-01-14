@@ -1,0 +1,108 @@
+@media (min-width : 320px){
+    .WhatIsSection .Stack{
+    
+       left: -5%;
+    }
+}
+
+@media (min-width : 360px){
+    .WhatIsSection .Stack{
+        inline-size: 100%;
+        left: 0;
+     }
+}
+
+@media (min-width : 425px){
+
+    .WhatIsSection{
+        padding-block-start: 80px;
+    
+    }
+
+    .WhatIsSection .DecoratedSeparatorTop{
+
+        inline-size: 100%;
+        block-size: 37px;
+    
+        position: absolute;
+        top: -16px;
+    
+        transform: scale(1.3) rotateZ(1deg) rotateX(180deg);
+        background-color: var(--background);
+    
+        mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
+        mask-repeat: no-repeat;
+        mask-size: 170%;
+        mask-position: -140px;
+    
+    }
+    
+    .WhatIsSection .TitleContainerShadow{
+        transform: scale(1.1);
+        transform-origin: left;
+    }
+
+    .WhatIsSection .Stack{
+        margin-block-start: 20px;
+        left: 5%;
+       transform: scale(1.1);
+    }
+
+    .WhatIsSection .Content p{
+        margin-block-start: 20px;
+        inline-size: 70%;
+    }
+
+}
+
+@media (min-width :550px){
+
+    .WhatIsSection .DecoratedSeparatorTop{
+        mask-position: -240px;
+    
+    }
+
+    .WhatIsSection .Content p{
+
+        inline-size: 60%;
+    
+        font-size: 16px;
+        font-weight: 600;
+    
+        margin-block-end: 26px;
+    }
+
+}
+
+
+@media (min-width :650px){
+    .WhatIsSection{
+        padding-block-start: 100px;
+    
+    }
+    
+    .WhatIsSection .DecoratedSeparatorTop{
+        mask-position: -340px;
+    
+    }
+
+    .WhatIsSection .TitleContainerShadow{
+        transform: scale(1.3);
+        transform-origin: left;
+    }
+
+    .WhatIsSection .Stack{
+        inline-size: 360px;
+        margin-block-start: 60px;
+        left: 20%;
+       transform: scale(1.3);
+    }
+
+    .WhatIsSection .Content p{
+        margin-block-start: 40px;
+        inline-size: 60%;
+        font-size: 18px;
+    }
+
+
+}

@@ -1,0 +1,90 @@
+@media (min-width : 320px){
+    
+
+}
+
+@media (min-width : 360px){
+
+}
+
+@media (min-width : 425px){
+    
+    .OnBoardingItemContainer .DecoratedSeparatorMiddle{
+
+        inline-size: 494px;
+    
+        mask-size: 100%;
+    
+        transform: scale(1.5);
+        left: -50px;
+        transform-origin: center;
+    }
+
+    
+    .OnBoardingItemContainer  .DecoratedSeparatorMiddleSecond{
+
+        inline-size: 494px;
+    
+        mask-size: 100%;
+    
+        transform: scale(1.5) rotateZ(-8deg) rotateX(180deg);
+        left: -50px;
+        transform-origin: center;
+    
+    }
+
+
+}
+
+@media (min-width :550px){
+    .OnBoardingItemContainer .DecoratedSeparatorMiddle{
+
+        inline-size: 494px;
+    
+        mask-size: 100%;
+        left: 50px;
+        transform: scale(1.8);
+        transform-origin: center;
+
+    }
+
+    .OnBoardingItemContainer  .DecoratedSeparatorMiddleSecond{
+
+        inline-size: 494px;
+    
+        mask-size: 100%;
+        left: 50px;
+        transform: scale(1.8) rotateZ(-8deg) rotateX(180deg);
+        transform-origin: center;
+    
+    }
+
+}
+
+
+@media (min-width :650px){
+
+
+    .OnBoardingItemContainer .DecoratedSeparatorMiddle{
+
+        inline-size: 494px;
+    
+        mask-size: 100%;
+        left: 50px;
+        transform: scale(2.2);
+        transform-origin: center;
+
+    }
+
+    .OnBoardingItemContainer  .DecoratedSeparatorMiddleSecond{
+
+        inline-size: 494px;
+    
+        mask-size: 100%;
+        left: 50px;
+        transform: scale(2.2) rotateZ(-8deg) rotateX(180deg);
+        transform-origin: center;
+    
+    }
+
+}

@@ -1,0 +1,48 @@
+@media (min-width : 320px){
+    
+
+}
+
+@media (min-width : 360px){
+
+}
+
+@media (min-width : 425px){
+    
+    .CTASection .CTARecorridoVirtual .DecoratedBox{
+
+        left: 26%;
+        top: 6px;
+    }
+
+}
+
+@media (min-width :550px){
+
+    .CTASection{
+    block-size: 225px;
+    inline-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding-block-start: 10px;
+    padding-block-end: 30px;
+    background-color: var(--background);
+}
+
+.CTASection .CTARecorridoVirtual .DecoratedBox{
+
+    left: 33%;
+    top: 6px;
+}
+
+}
+
+
+@media (min-width :650px){
+
+
+}

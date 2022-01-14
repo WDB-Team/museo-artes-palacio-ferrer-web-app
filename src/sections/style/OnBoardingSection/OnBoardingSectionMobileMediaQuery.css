@@ -1,0 +1,47 @@
+@media (min-width : 320px){
+
+}
+
+@media (min-width : 360px){
+
+    .OnBoardingSection .DecoratedSeparatorTop{
+
+        top: -40px;
+
+    }
+    
+
+}
+
+@media (min-width : 425px){
+    
+    .OnBoardingSection .DecoratedSeparatorTop{
+
+        top: -35px;
+        mask-size: 180%;
+        mask-position: -200px;
+    }
+}
+
+@media (min-width :550px){
+    .OnBoardingSection .DecoratedSeparatorTop{
+
+        top: -25px;
+    
+    
+        mask-position: -300px;
+        
+    
+    }
+}
+
+@media (min-width :650px){
+
+    .OnBoardingSection .DecoratedSeparatorTop{
+
+        top: -35px;
+        mask-size: 180%;
+        mask-position: -380px;
+    }
+    
+}

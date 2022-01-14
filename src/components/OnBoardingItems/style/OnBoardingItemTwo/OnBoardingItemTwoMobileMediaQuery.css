@@ -1,0 +1,109 @@
+@media (min-width : 320px){
+
+    .OnBoardingItemTwo .Stack{
+        inline-size: 100%;
+    }
+
+    .OnBoardingItemTwo .Content h2 {
+        transform: scale(0.9);
+        
+    }
+
+    .OnBoardingItemTwo .Content button{
+
+        transform: scale(0.9);
+        right: -16px;
+        left: auto;
+    }
+
+}
+
+@media (min-width : 360px){
+
+    .OnBoardingItemTwo .Stack{
+        inline-size: 360px;
+    }
+
+    .OnBoardingItemTwo .Content h2 {
+        transform: scale(1);
+        
+    }
+
+    .OnBoardingItemTwo .Content button{
+
+        transform: scale(1);
+        right: -12px;
+        left: auto;
+    }
+
+}
+
+@media (min-width : 425px){
+    
+    .OnBoardingItemTwo .Stack{
+        inline-size: 100%;
+    }
+
+}
+
+@media (min-width :550px){
+
+    .OnBoardingItemTwo{
+        block-size: 350px;
+    
+    }
+
+    .OnBoardingItemTwo .Stack{
+        inline-size: 350px;
+        left: 21%;
+        transform: scale(1.1);
+    }
+
+    .OnBoardingItemTwo .Content h2 {
+        transform: scale(1.1);
+        
+    }
+
+    .OnBoardingItemTwo .Content button{
+
+        transform: scale(1.1);
+        right: -6px;
+        left: auto;
+    }
+
+
+
+}
+
+
+
+@media (min-width :650px){
+
+    .OnBoardingItemTwo{
+        block-size: 375px;
+        margin-block-start: 10px;
+    }
+
+    .OnBoardingItemTwo .Stack{
+       
+        left: 23%;
+        transform: scale(1.2);
+    }
+
+    .OnBoardingItemTwo .Content h2 {
+        top: 225px;
+        transform: scale(1.2);
+        
+    }
+
+    .OnBoardingItemTwo .Content button{
+
+        transform: scale(1.2);
+        right: -2px;
+        left: auto;
+        top: 370px;
+    }
+
+
+
+}

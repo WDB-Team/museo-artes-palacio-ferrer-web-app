@@ -210,11 +210,13 @@
 
 .WhatIsSection .Content p{
 
+    inline-size: 80%;
+
     text-align: center;
-    font-size: 15;
+    font-size: 15px;
     font-weight: 500;
 
-    margin-block-end: 20px;
+    margin-block-end: 24px;
 }
 
 .WhatIsSection .Content button{

@@ -200,7 +200,7 @@
 
     background-color: var(--primary-color);
 
-    transform: rotateX(180deg);
+    transform:rotateZ(1deg) rotateX(180deg);
     
     mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
     mask-repeat: no-repeat;

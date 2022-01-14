@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import './style/OnBoardingItemFour/OnBoardingItemFourMobile.css';
+import './style/OnBoardingItemFour/OnBoardingItemFourMobileMediaQuery.css';
+
 
 import img1 from './../../assets/img/richly-decorated-interior Low.jpg';
 import img1High from './../../assets/img/richly-decorated-interior.jpg';

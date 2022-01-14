@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import './style/OnBoardingSection/OnBoardingSectionMobile.css';
+import './style/OnBoardingSection/OnBoardingSectionMobileMediaQuery.css';
 import './style/OnBoardingSection/OnBoardingSectionDesktop.css';
 
 import CTASection from './CTASection';

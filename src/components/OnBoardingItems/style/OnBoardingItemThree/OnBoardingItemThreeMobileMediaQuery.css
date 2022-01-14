@@ -1,0 +1,121 @@
+@media (min-width : 320px){
+    .OnBoardingItemThree{
+        inline-size: 100%;
+    
+    }
+
+    .OnBoardingItemThree .Stack{
+        inline-size: 100%;
+        left: -20px;
+    }
+
+    .OnBoardingItemThree .Content h2 {
+        transform: scale(0.9);
+        
+    }
+
+    .OnBoardingItemThree .Content button{
+
+        transform: scale(0.9);
+        left: -16px;
+    }
+
+}
+
+@media (min-width : 360px){
+
+    .OnBoardingItemThree{
+        inline-size: 100%;
+    
+    }
+
+    .OnBoardingItemThree .Stack{
+        inline-size: 360px;
+        left: -12px;
+    }
+
+    .OnBoardingItemThree .Content h2 {
+        transform: scale(1);
+        left: 0px;
+        
+    }
+
+    .OnBoardingItemThree .Content button{
+
+        transform: scale(1);
+        left: -10px;
+    }
+
+}
+
+@media (min-width : 425px){
+    
+    .OnBoardingItemThree .Stack{
+        inline-size: 100%;
+        left: 3%;
+    }
+
+}
+
+@media (min-width :550px){
+
+    .OnBoardingItemThree{
+        margin-block-start: 20px;
+        block-size: 425px;
+    
+    }
+
+    .OnBoardingItemThree .Stack{
+        inline-size: 350px;
+        left: 11%;
+        transform: scale(1.1);
+    }
+
+    .OnBoardingItemThree .Content h2 {
+        transform: scale(1.1);
+        top: 235px;
+        
+    }
+
+    .OnBoardingItemThree .Content button{
+
+        transform: scale(1.1);
+        top: 395px;
+        left: -8px;
+    }
+
+
+
+}
+
+
+
+@media (min-width :650px){
+
+    .OnBoardingItemThree{
+        block-size: 450px;
+        margin-block-start: 60px;
+    }
+
+    .OnBoardingItemThree .Stack{
+       
+        left: 23%;
+        transform: scale(1.2);
+    }
+
+    .OnBoardingItemThree .Content h2 {
+        top: 235px;
+        transform: scale(1.2);
+        
+    }
+
+    .OnBoardingItemThree .Content button{
+
+        transform: scale(1.2);
+        left: -8px;
+        top: 415px;
+    }
+
+
+
+}
