@@ -1,0 +1,128 @@
+.OnBoardingItemFour{
+    inline-size: 100%;
+    block-size: 375px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;
+    bottom: 100px;
+}
+
+ .OnBoardingItemFour .Stack{
+    
+    inline-size: 100%;
+    block-size: 235px;
+
+    position: relative;
+}
+
+ .OnBoardingItemFour .Stack div.Positioned:nth-of-type(1){
+    inline-size: 77px;
+    block-size: 103px;
+
+    position: absolute;
+    left: 30%;
+    top: 155px;
+    z-index: 3;
+
+    box-shadow: var(--elevation-3);
+
+    border-radius: 13px;
+}
+
+ .OnBoardingItemFour .Stack div.Positioned:nth-of-type(1) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 13px;
+
+    object-fit: cover;
+
+   
+}
+
+ .OnBoardingItemFour .Stack div.Positioned:nth-of-type(2){
+    
+    inline-size: 406px;
+    block-size: 350px; 
+
+    position: absolute;
+    left: 12%;
+    top: -20px;
+    z-index: 1;
+
+    background-image: url("./../../../../assets/img/watercolor-4629348_1920Low.png"); 
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+ .OnBoardingItemFour .Stack div.Positioned:nth-of-type(3){
+    inline-size: 123px;
+    block-size: 164px;
+
+    position: absolute;
+    left: 40%;
+    top: 65px;
+    z-index: 2;
+
+    border-radius: 15px;
+
+    box-shadow: var(--elevation-1);
+    
+}
+
+ .OnBoardingItemFour .Stack div.Positioned:nth-of-type(3) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 15px;
+
+    object-position: 0px 0px;
+    object-fit: cover;
+    
+}
+
+ .OnBoardingItemFour .Content h2 {
+    inline-size: 100%;
+
+    position: absolute;
+    left: 0%;
+    top: 270px;
+    z-index: 5;
+
+    text-align: center;
+    color: var(--primary-color);
+    font-size: var(--font-size-medium-tall);
+    font-weight: var(--font-weight-bold);
+    
+}
+
+ .OnBoardingItemFour .Content button{
+
+    inline-size: 157px;
+    block-size: 30px;
+
+
+    padding-inline-start: 4px;
+
+
+    border: 3px solid var(--primary-color);
+    border-radius: 6px;
+
+    position: absolute;
+
+    right: -8px;
+    top: 400px;
+
+    background-color: rgba(255, 255, 255, 0);
+
+    color: var(--primary-color);
+    font-size: var(--font-size-small-medium);
+    font-weight: var(--font-weight-bold);
+
+}

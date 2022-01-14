@@ -35,7 +35,7 @@
 
 .HeroSectionContainer .TitleContainerShadow .TitleContainer h1{
     
-    padding-block-start: 12px;
+    padding-block-start: 8px;
     padding-inline-start: 40px;
 
     color: var(--primary-color);

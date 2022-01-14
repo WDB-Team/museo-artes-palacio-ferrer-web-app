@@ -15,9 +15,8 @@
 /*************/
 
 :root{
-
-    --primary-color : #688BB3 ;
-    --primary-variant : #38526F;
+    --primary-color : #38526F ;
+    --primary-variant : #688BB3;
     --on-primary : #FFFFFF;
 
     --secondary-color : #ECE708;

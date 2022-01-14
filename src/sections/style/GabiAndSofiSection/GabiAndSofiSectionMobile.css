@@ -1,0 +1,212 @@
+.GabiAndSofiSection{
+
+    margin-top: 60px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--primary-color);
+    
+}
+
+.GabiAndSofiSection .DecoratedSeparatorTop{
+
+    inline-size: 100%;
+    block-size: 37px;
+
+    position: absolute;
+    top: -20px;
+    z-index: 1;
+
+    background-color: var(--primary-color);
+
+    mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
+    mask-repeat: no-repeat;
+    mask-size: 150%;
+    mask-position: -100px;
+
+}
+
+.GabiAndSofiSection .DecoratedImageTop{
+
+    inline-size: 70%;
+    block-size: 250px;
+
+    margin: 0 auto;
+
+    position:relative;
+    top: -130px;
+    
+    z-index: 2;
+
+    background-image: url("./../../../assets/img/241356113_2686140578355619_3558653241144157494_nLow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    
+}
+
+.GabiAndSofiSection .Content{
+
+    margin-block-start: -140px;
+    inline-size: 100%;
+    block-size: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    color: var(--on-primary);
+
+}
+
+.GabiAndSofiSection .Content h2{
+    inline-size: 90%;
+
+    text-align: center;
+    font-size: var(--font-size-tall);
+}
+
+
+.GabiAndSofiSection .Content p{
+
+    inline-size: 70%;
+    line-height: 24px;
+    font-weight: var(--font-weight-bold);
+    font-size: 16px;
+    color: rgb(236, 236, 236);
+}
+
+.GabiAndSofiSection .Content button{
+    inline-size: 157px;
+    block-size: 30px;
+
+
+    padding-inline-start: 4px;
+    margin-block-end: 16px;
+
+    border: 3px solid var(--on-primary);
+    border-radius: 6px;
+
+
+    background-color: rgba(255, 255, 255, 0);
+
+    color: var(--on-primary);
+    font-size: var(--font-size-small-medium);
+    font-weight: var(--font-weight-bold);
+
+}
+
+.GabiAndSofiSection .Stack{
+
+    inline-size: 100%;
+    block-size: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.GabiAndSofiSection .Stack  div.Positioned:nth-of-type(1){
+    inline-size: 202px;
+    block-size: 136px;
+
+    display: flex;
+    justify-content: center;    
+    /*position: absolute;
+    left: 50%;
+    top: 0px;
+    z-index: 4;
+*/
+    box-shadow: var(--elevation-right-1);
+
+    border-radius: 8px;
+    background-color: var(--on-primary);
+
+}
+.GabiAndSofiSection .Stack  div.Positioned:nth-of-type(1) picture{
+    inline-size: 90%;
+    block-size: 70%;
+    margin-top: 14px;
+}
+
+.GabiAndSofiSection .Stack  div.Positioned:nth-of-type(1) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    object-fit: cover;
+
+}
+
+.GabiAndSofiSection .Stack  div.Positioned:nth-of-type(2){
+    inline-size: 200px;
+    block-size: 135px;
+    
+    align-self: flex-end;
+
+    display: flex;
+    justify-content: center;    
+
+    margin-inline-end: 8px;
+
+    box-shadow: var(--elevation-right-1);
+
+    border-radius: 16px;
+
+    background-color: var(--on-primary);
+}
+
+.GabiAndSofiSection .Stack  div.Positioned:nth-of-type(2) img
+{
+    inline-size: 85%;
+    block-size: 68%;
+
+    margin-top: 14px;
+
+    object-fit: cover;
+}
+
+.GabiAndSofiSection .DecoratedImageBottom{
+
+    inline-size: 221px;
+    block-size: 221px;
+
+    margin: 0 auto;
+
+    position:absolute;
+    bottom: 0px;
+    left: -32px;
+    
+    z-index: 2;
+
+    background-image: url("./../../../assets/img/256419196_2700471826922494_421919097355875388_nLow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    
+}
+
+.GabiAndSofiSection .DecoratedSeparatorBottom{
+
+    inline-size: 100%;
+    block-size: 37px;
+
+    position: absolute;
+    bottom: -15px;
+    z-index: 1;
+
+    background-color: var(--primary-color);
+
+    transform: rotateX(180deg);
+    
+    mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
+    mask-repeat: no-repeat;
+    mask-size: 150%;
+    mask-position: -100px;
+
+}
+
+

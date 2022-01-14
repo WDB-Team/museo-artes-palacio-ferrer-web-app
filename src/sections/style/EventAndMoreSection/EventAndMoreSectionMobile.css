@@ -1,0 +1,181 @@
+.EventAndMoreSection{
+    inline-size: 100%;
+}
+
+.EventAndMoreSection .Content{
+
+    inline-size: 100%;
+
+    margin-block-start: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EventAndMoreSection .Content h2{
+    
+
+    color: var(--primary-color);
+    font-size: var(--font-size-tall);
+    text-align: center;
+}
+
+
+.EventAndMoreSection .Content .Stack{
+    
+    inline-size: 100%;
+    block-size: 275px;
+
+    position: relative;
+}
+
+ .EventAndMoreSection .Content .Stack div.Positioned:nth-of-type(1){
+    inline-size: 94px;
+    block-size: 126px;
+
+    position: absolute;
+    left: 16%;
+    top: 108px;
+    z-index: 4;
+
+    box-shadow: var(--elevation-3);
+
+    border-radius: 16px;
+}
+
+ .EventAndMoreSection .Content .Stack div.Positioned:nth-of-type(1) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 16px;
+
+    object-fit: cover;
+
+   
+}
+
+.EventAndMoreSection .Content .Stack div.Positioned:nth-of-type(2){
+    inline-size: 198px;
+    block-size: 111px;
+
+    position: absolute;
+    left: 29%;
+    top: 60px;
+    z-index: 3;
+
+    border-radius: 24px;
+
+    box-shadow: var(--elevation-1);
+    
+}
+
+ .EventAndMoreSection .Content .Stack div.Positioned:nth-of-type(2) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 24px;
+
+    object-position: 0px 0px;
+    object-fit: cover;
+    
+}
+
+
+ .EventAndMoreSection .Content .Stack div.Positioned:nth-of-type(3){
+    inline-size: 94px;
+    block-size: 126px;
+
+    position: absolute;
+    left: 69%;
+    top: 5px;
+    z-index: 2;
+
+    border-radius: 15px;
+
+    box-shadow: var(--elevation-1);
+    
+}
+
+ .EventAndMoreSection .Content .Stack div.Positioned:nth-of-type(3) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 15px;
+
+    object-position: 0px 0px;
+    object-fit: cover;
+    
+}
+
+.EventAndMoreSection .Content .Stack div.Positioned:nth-of-type(4){
+    
+    inline-size: 500px;
+    block-size: 431px; 
+
+    position: absolute;
+    left: -33%;
+    top: -60px;
+    z-index: 1;
+    
+    background-image: url("./../../../assets/img/watercolor-4629348_1920Low.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.EventAndMoreSection .Content p{
+
+    inline-size: 80%;
+    
+    z-index: 2;
+
+    color: #1E2226;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.EventAndMoreSection .Content .SocialMedia{
+    
+    inline-size: 85%;
+    block-size: 200px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.EventAndMoreSection .Content .SocialMedia h3{
+
+    color: var(--primary-color);
+    text-align: center;
+
+}
+
+.EventAndMoreSection .Content .SocialMedia button{
+    inline-size: 90%;
+    block-size: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #3F65A6;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.EventAndMoreSection .Content .SocialMedia button span{
+    block-size: 35px;
+    inline-size: 35px;
+
+    background-image: url("./../../../assets/svg/facebook_icon-icons.com_59205.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}

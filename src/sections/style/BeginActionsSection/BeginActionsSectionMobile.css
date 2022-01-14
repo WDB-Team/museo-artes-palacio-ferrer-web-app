@@ -1,0 +1,151 @@
+.BeginActionsSection{
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+
+    margin-block-start: 16px;
+    padding-block-start: 80px;
+
+    background-image: url("./../../../assets/img/Backdround Pintura Rotate Low v1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1369px 836px;
+    background-position: -350px 0px;
+}
+
+.BeginActionsSection .DecoratedSeparatorTop{
+
+    inline-size: 100%;
+    block-size: 37px;
+
+    position: absolute;
+    top: -12px;
+
+    transform: rotateZ(1deg) rotateX(180deg);
+    background-color: var(--background);
+
+    mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
+    mask-repeat: no-repeat;
+    mask-size: 170%;
+    mask-position: -100px;
+
+}
+
+.BeginActionsSection h2{
+
+    margin-block-end: 40px;
+
+    text-align: center;
+    color: var(--on-primary);
+}
+
+.BeginActionsSection .VirtualTripContainer{
+
+    inline-size: 310px;
+    block-size: 471px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+
+    border-radius: 24px;
+    box-shadow: var(--elevation-3);
+
+    background-color: var(--primary-color);
+
+    color: var(--on-primary);
+
+}
+
+.BeginActionsSection .VirtualTripContainer h3{
+    padding-inline-start: 28px;
+}
+
+.BeginActionsSection .VirtualTripContainer p{
+    inline-size: 90%;
+
+    padding-inline-start: 28px;
+
+    line-height: 26px;
+    font-weight: 600;
+
+    color: #E7E7E7;
+}
+
+.BeginActionsSection .VirtualTripContainer button{
+    inline-size: 45%;
+    block-size: 32px;
+
+    align-self: center;
+
+    border-radius: 6px;
+
+    background-color: white;
+
+
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+
+.BeginActionsSection .TakeTripContainer{
+
+    inline-size: 310px;
+    block-size: 416px;
+
+    margin-block-start: 40px;
+    margin-block-end: 60px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    border-radius: 24px;
+    box-shadow: var(--elevation-3);
+
+    background-color: #F7F7F7;
+
+    color: var(--primary-color);
+
+}
+
+.BeginActionsSection .TakeTripContainer h3{
+    padding-inline-start: 28px;
+}
+
+.BeginActionsSection .TakeTripContainer p{
+    inline-size: 90%;
+
+    padding-inline-start: 28px;
+
+    line-height: 26px;
+    font-weight: 600;
+
+    color: #5A728D;
+}
+
+.BeginActionsSection .TakeTripContainer button{
+    inline-size: 45%;
+    block-size: 32px;
+
+    align-self: center;
+
+    border-radius: 6px;
+
+    background-color: var(--primary-color);
+
+
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--on-primary);
+
+}

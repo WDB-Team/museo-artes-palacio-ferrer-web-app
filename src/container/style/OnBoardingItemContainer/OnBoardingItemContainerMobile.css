@@ -1,0 +1,39 @@
+.OnBoardingItemContainer{
+
+    inline-size: 100%;
+}
+
+.OnBoardingItemContainer .DecoratedSeparatorMiddle{
+
+    inline-size: auto;
+    block-size: 134px;
+
+    position: relative;
+    top: 0px;
+    background-color: #A7A7A7;
+
+    mask-image: url("./../../../assets/svg/Motivo para separacion 1.svg");
+    mask-repeat: no-repeat;
+    mask-size: 130%;
+    mask-position: center;
+
+}
+
+
+.OnBoardingItemContainer  .DecoratedSeparatorMiddleSecond{
+
+    inline-size: auto;
+    block-size: 134px;
+
+    position: relative;
+    
+    transform: rotateZ(-8deg) rotateX(180deg);
+
+    background-color: #A7A7A7;
+
+    mask-image: url("./../../../assets/svg/Motivo para separacion 1.svg");
+    mask-repeat: no-repeat;
+    mask-size: 130%;
+    mask-position: center;
+
+}

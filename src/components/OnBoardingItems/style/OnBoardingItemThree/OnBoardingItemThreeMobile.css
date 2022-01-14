@@ -1,0 +1,131 @@
+ .OnBoardingItemThree{
+    inline-size: 360px;
+    block-size: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: relative;
+
+}
+
+
+ .OnBoardingItemThree .Stack {
+    
+    inline-size: 100%;
+    block-size: 400px;
+
+    position: relative;
+}
+
+ .OnBoardingItemThree .Stack  div.Positioned:nth-of-type(1){
+    inline-size: 97px;
+    block-size: 161px;
+
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    z-index: 4;
+
+    box-shadow: var(--elevation-right-1);
+
+    border-radius: 15px;
+}
+
+ .OnBoardingItemThree .Stack  div.Positioned:nth-of-type(1) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 15px;
+
+    object-fit: cover;
+
+   
+}
+
+ .OnBoardingItemThree .Stack  div.Positioned:nth-of-type(2){
+    
+    inline-size: 335px;
+    block-size: 335px; 
+
+    position: absolute;
+    left: -70px;
+    top: -10px;
+    z-index: 1;
+
+
+    background-image: url("../../../../assets/img/paint-2090112_1920\ Low.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+ .OnBoardingItemThree .Stack  div.Positioned:nth-of-type(3){
+    inline-size: 214px;
+    block-size: 161px;
+
+    position: absolute;
+    left: 25%;
+    top: 50px;
+    z-index: 2;
+
+    border-radius: 15px;
+
+    box-shadow: var(--elevation-2);
+    
+}
+
+ .OnBoardingItemThree .Stack  div.Positioned:nth-of-type(3) img
+{
+    inline-size: 100%;
+    block-size: 100%;
+
+    border-radius: 15px;
+
+    object-position: 0px 0px;
+    object-fit: cover;
+    
+}
+
+
+ .OnBoardingItemThree .Content h2 {
+    inline-size: 100%;
+
+    position: absolute;
+    left: 0%;
+    top: 215px;
+    z-index: 5;
+
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 25px;
+    font-weight: var(--font-weight-bold);
+    
+}
+
+ .OnBoardingItemThree .Content button{
+
+    inline-size: 157px;
+    block-size: 30px;
+
+
+    padding-inline-start: 4px;
+
+
+    border: 3px solid var(--primary-color);
+    border-radius: 6px;
+
+    position: absolute;
+
+    left: -10px;
+    top: 375px;
+
+    background-color: rgba(255, 255, 255, 0);
+
+    color: var(--primary-color);
+    font-size: var(--font-size-small-medium);
+    font-weight: var(--font-weight-bold);
+
+}
