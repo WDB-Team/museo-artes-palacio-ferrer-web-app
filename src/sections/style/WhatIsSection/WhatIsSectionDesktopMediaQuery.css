@@ -1,0 +1,450 @@
+
+@media (min-width : 1024px){    
+    .WhatIsSection{
+
+        inline-size: 100%;
+        block-size: 873px;
+        position: relative;
+
+    
+        padding-block-start: 130px;
+    
+        background-image: url("./../../../assets/img/Backdround Pintura Rotate High v1.jpg");
+        background-repeat: no-repeat;
+        background-size: 2260px 1380px;
+        background-position: center 0;
+    }
+    
+    .WhatIsSection .DecoratedSeparatorTop{
+    
+        inline-size: 2002px;
+        block-size: 126px;
+    
+        position: absolute;
+        top: -56px;
+        left: -50px;
+    
+        transform: rotateZ(1deg) rotateX(180deg) scale(1);
+        background-color: var(--background);
+    
+        mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
+        mask-repeat: no-repeat;
+        mask-size: 110%;
+        mask-position: center center;
+    
+    }
+    
+    .WhatIsSection .TitleContainerShadow{
+        inline-size: 714px;
+        block-size: 237px; 
+        filter: drop-shadow( var(--elevation-right-1));
+
+        transform: scale(0.6);
+
+        position: relative;
+
+    }
+    
+    
+    .WhatIsSection .TitleContainerShadow .TitleContainer{
+        inline-size: 100%;
+        block-size: 100%; 
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    
+        background-color: var(--surface);  
+    
+        clip-path: polygon(0% 70%, 100% 100%, 90% 10%, 0% 5%);
+        /*12% 6%, 100% 0, 100% 66%, 0 100%*/
+    }
+    
+    .WhatIsSection .TitleContainerShadow .TitleContainer > span{
+    
+        block-size: 130px;
+        inline-size: 130px;
+    
+        display: block;
+    
+        margin-bottom: 50px;
+    
+        background-color: var(--on-surface);
+      
+        mask-image: url('./../../../assets/svg/Logo.svg');
+        mask-repeat: no-repeat;
+        mask-size: contain;
+        mask-position: center;
+    
+    }
+    
+    .WhatIsSection .TitleContainerShadow .TitleContainer h1{
+        
+        
+        color: var(--on-surface);
+        font-size: 49px;
+        margin-block-end: 60px;
+    }
+    
+    .WhatIsSection .TitleContainerShadow .TitleContainer h1 span{
+        
+        position: relative;
+        left: -100px;
+        top: 60px;
+    
+    }
+    
+    
+    /***************************************************************/
+    .WhatIsSection .Stack{
+        
+        inline-size: 929px;
+        block-size: 795px;
+    
+        position: absolute;
+        left: auto;
+        right: 11%;
+        top: 220px;
+        transform: scale(0.5);
+        transform-origin:  top right;
+    }
+    
+    .WhatIsSection .Stack div.Positioned:nth-of-type(1){
+        inline-size: 709px;
+        block-size: 453px;
+    
+        position: absolute;
+        left: 16%;
+        top: 30px;
+        z-index: 1;
+    
+        box-shadow: var(--elevation-2);
+    
+        border-radius: 61px;
+    }
+    
+    .WhatIsSection .Stack div.Positioned:nth-of-type(1) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 61px;
+    
+        object-fit: cover;
+    
+    }
+    
+    .WhatIsSection .Stack div.Positioned:nth-of-type(2){
+        
+        inline-size: 850px;
+        block-size: 850px; 
+    
+        position: absolute;
+        left: -3%;
+        top: 150px;
+        z-index: 2;
+    
+    
+        background-color: black;
+        mask-image: url("./../../../assets/img/paint-2209578_1920 Low.png"); 
+        mask-repeat: no-repeat;
+        mask-size: cover;
+    }
+    
+    
+    .WhatIsSection .Stack div.Positioned:nth-of-type(3){
+        inline-size: 509px;
+        block-size: 286px;
+    
+        position: absolute;
+        left: 48%;
+        top: 295px;
+        z-index: 3;
+    
+        border-radius: 50px;
+    
+        box-shadow: var(--elevation-right-3);
+        
+    }
+    
+    .WhatIsSection .Stack div.Positioned:nth-of-type(3) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 50px;
+    
+        object-position: 0px 0px;
+        object-fit: cover;
+        
+    }
+
+    
+    .WhatIsSection .Content{
+    
+        inline-size: 867px;
+        block-size: 819px;
+
+        display: flex;
+        flex-direction: column;
+        
+
+        justify-content: center;
+        align-items: center;
+
+        margin-block-start: 20px;
+
+        position: relative;
+
+        transform-origin: center;
+        transform: scale(0.55);
+        transform-origin: top left;
+    }
+    
+    .WhatIsSection .Content p{
+        
+        inline-size: 90%;
+        text-align: left;
+        font-size: 28px;
+        font-weight: 500;
+    
+        margin-block-end: 10px;
+    }
+
+    .WhatIsSection .Content p:nth-of-type(3){
+
+        display: block;
+     }
+    
+    .WhatIsSection .Content button{
+    
+        inline-size: 246px;
+        block-size: 46px;
+    
+    
+        padding-inline-start: 4px;
+        
+        margin-block-start: 20px;
+        margin-block-end: 40px;
+    
+        border: 3px solid var(--on-surface);
+        border-radius: 6px;
+    
+    
+        background-color: rgba(255, 255, 255, 0);
+    
+        color: var(--on-surface);
+        font-size: 27px;
+        font-weight: var(--font-weight-bold);
+    
+    }    
+}
+
+@media (min-width : 1280px){
+ 
+
+    .WhatIsSection{
+
+        inline-size: 100%;
+        block-size: 1073px;
+    
+        padding-block-start: 180px;
+    
+    }
+    
+    .WhatIsSection .DecoratedSeparatorTop{
+    
+       
+        top: -56px;
+        left: -50px;
+    
+        transform: rotateZ(1deg) rotateX(180deg) scale(1);
+        mask-size: 110%;
+        mask-position: center center;
+    
+    }
+
+    .WhatIsSection .TitleContainerShadow{
+
+        transform: scale(0.7);
+
+    }
+
+    .WhatIsSection .Stack{
+        
+
+        left: auto;
+        right: 11%;
+        top: 220px;
+        transform: scale(0.6);
+    }
+    
+    .WhatIsSection .Content{
+
+
+        margin-block-start: 20px;
+
+        transform-origin: top left;
+        transform: scale(0.7);
+    }
+
+
+  
+}
+
+@media (min-width : 1440px){
+    
+
+    .WhatIsSection{
+
+        inline-size: 100%;
+        block-size: 1173px;
+    
+        padding-block-start: 180px;
+    
+    }
+    
+    .WhatIsSection .DecoratedSeparatorTop{
+    
+       
+        top: -56px;
+        left: -50px;
+    
+        transform: rotateZ(1deg) rotateX(180deg) scale(1);
+        mask-size: 110%;
+        mask-position: center center;
+    
+    }
+
+    .WhatIsSection .TitleContainerShadow{
+
+        transform: scale(0.8);
+
+    }
+
+    .WhatIsSection .Stack{
+        
+
+        left: auto;
+        right: 11%;
+        top: 220px;
+        transform: scale(0.7);
+    }
+    
+    .WhatIsSection .Content{
+
+
+        margin-block-start: 20px;
+
+        transform-origin: top left;
+        transform: scale(0.8);
+    }
+
+
+
+ }
+
+
+@media (min-width : 1600px){
+    .WhatIsSection{
+
+        inline-size: 100%;
+        block-size: 1273px;
+    
+        padding-block-start: 180px;
+    
+    }
+    
+    .WhatIsSection .DecoratedSeparatorTop{
+    
+       
+        top: -56px;
+        left: -50px;
+    
+        transform: rotateZ(1deg) rotateX(180deg) scale(1);
+        mask-size: 110%;
+        mask-position: center center;
+    
+    }
+
+    .WhatIsSection .TitleContainerShadow{
+
+        transform: scale(0.9);
+
+    }
+
+    .WhatIsSection .Stack{
+        
+
+        left: auto;
+        right: 11%;
+        top: 220px;
+        transform: scale(0.8);
+    }
+    
+    .WhatIsSection .Content{
+
+
+        margin-block-start: 20px;
+
+        transform-origin: top left;
+        transform: scale(0.9);
+    }
+
+
+
+ }
+
+
+@media (min-width : 1920px){
+
+    .WhatIsSection{
+
+        inline-size: 100%;
+        block-size: 1373px;
+    
+        padding-block-start: 230px;
+    
+    }
+    
+    .WhatIsSection .DecoratedSeparatorTop{
+    
+       
+        top: -56px;
+        left: -50px;
+    
+        transform: rotateZ(1deg) rotateX(180deg) scale(1);
+        mask-size: 110%;
+        mask-position: center center;
+    
+    }
+
+    .WhatIsSection .TitleContainerShadow{
+
+        transform: scale(1);
+
+    }
+
+    .WhatIsSection .Stack{
+        
+
+        left: auto;
+        right: 11%;
+        top: 220px;
+        transform: scale(1);
+    }
+    
+    .WhatIsSection .Content{
+
+
+        margin-block-start: 20px;
+
+        transform-origin: center;
+        transform: scale(1);
+    }
+
+
+ }
+

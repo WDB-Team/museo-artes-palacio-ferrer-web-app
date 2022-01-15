@@ -1,0 +1,329 @@
+
+@media (min-width : 1024px){    
+ 
+     .OnBoardingItemTwo{
+        inline-size: 100%;
+        block-size:  225px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    
+    
+        margin-block-start: 50px;
+        position: relative;
+        bottom: 160px;
+    }
+    
+    
+     .OnBoardingItemTwo .Stack {
+        
+        inline-size: 976px;
+        block-size: 741px;
+    
+        position: absolute;
+        right: 0px;
+        left: auto;
+        top: -100px;
+        order: 1;
+
+        transform-origin: top right;
+        transform: scale(0.5);
+    }
+    
+     .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(1){
+        inline-size: 374px;
+        block-size: 280px;
+    
+        position: absolute;
+        left: auto;
+        right: 59%;
+        top: 40px;
+        z-index: 4;
+    
+        box-shadow: var(--elevation-right-3);
+    
+        border-radius: 107px;
+    }
+    
+     .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(1) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 107px;
+    
+        object-fit: cover;
+    
+       
+    }
+    
+     .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(2){
+        
+        inline-size: 849px;
+        block-size: 630px; 
+    
+        position: absolute;
+        left: auto;
+        right: -3%;
+        top: -178px;
+        z-index: 1;
+    
+    
+        background-color: #8AB0AF;
+        mask-image: url("./../../../../assets/svg/Mancha de Pintura Pequeña.svg"); 
+        mask-repeat: no-repeat;
+        mask-size: cover;
+    }
+    
+    
+     .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(3){
+        inline-size: 640px;
+        block-size: 479px;
+    
+        position: absolute;
+        left: auto;
+        right: 16%;
+        top: 60px;
+        z-index: 2;
+    
+        border-radius: 134px;
+    
+        box-shadow: var(--elevation-2);
+        
+    }
+    
+     .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(3) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 134px;
+    
+        object-position: 0px 0px;
+        object-fit: cover;
+        
+    }
+    
+     .OnBoardingItemTwo .Stack  div.Positioned:nth-of-type(4){
+        inline-size: 640px;
+        block-size: 475px;
+        
+        position: absolute;
+       
+        left: auto;
+        right: -7%;
+        top: -175px;
+    
+        z-index: 3;
+    
+        background-color: var(--secondary-variant);
+        mask-image: url("./../../../../assets/svg/Mancha de Pintura Pequeña.svg"); 
+        mask-repeat: no-repeat;
+        mask-size: cover;
+    }
+    
+     .OnBoardingItemTwo .Content{
+        block-size: 665px;
+        inline-size: 1021px;
+    
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: flex-start;
+        align-items: center;
+    
+        padding-block-start: 40px;
+    
+        position: relative;
+        right: -20px;
+        top: -80px;
+        z-index: 1;
+
+        transform-origin: top left;
+        transform: scale(0.5);
+    }
+    
+     .OnBoardingItemTwo .Content h2 {
+        inline-size: 100%;
+    
+        position: relative;
+    
+        top: 13px;
+        left: 50px;
+        
+        transform: scale(1) rotateZ(-9deg);
+    
+        text-align: center;
+        color: var(--primary-color);
+        font-size: 47px;
+        font-weight: var(--font-weight-bold);
+    }
+    
+     .OnBoardingItemTwo .Content h2 br:nth-of-type(1), .OnBoardingItemTwo .Content h2 br:nth-of-type(3){
+    display: none;
+    }
+    
+     .OnBoardingItemTwo .Content p{
+        
+        inline-size: 55%;
+    
+        align-self: flex-end;
+    
+        margin-block-start: 100px;
+        margin-inline-end: 40px;
+        font-size: 27px;
+    }
+    
+    
+     .OnBoardingItemTwo .Content button{
+    
+        inline-size: 246px;
+        block-size: 46px;
+    
+    
+        margin-block-start: 40px;
+        margin-inline-start: 60px;
+        padding-inline-start: 4px;
+    
+    
+        border: 3px solid var(--primary-color);
+        border-radius: 6px;
+    
+        position: static;
+    
+        background-color: rgba(255, 255, 255, 0);
+    
+        color: var(--primary-color);
+        font-size: 24px;
+        font-weight: var(--font-weight-bold);
+
+        transform: scale(1);
+    
+    }
+    
+
+}
+
+@media (min-width : 1280px){
+ 
+    .OnBoardingItemTwo{
+        
+        block-size:  425px;
+        margin-block-start: 50px;
+    }
+    
+    .OnBoardingItemTwo .Stack{
+        
+        right: 2%;
+        left: auto;
+        top: -50px;
+        transform-origin: top right;
+        transform: scale(0.65);
+
+    }
+
+    .OnBoardingItemTwo .Content{
+
+
+        right: 2%;
+        top: auto;
+        transform-origin: top left;
+        transform: scale(0.65);
+
+    }
+  
+}
+
+@media (min-width : 1440px){
+    
+    .OnBoardingItemTwo{
+        
+        block-size:  500px;
+        margin-block-start: 60px;
+    }
+    
+    .OnBoardingItemTwo .Stack{
+        
+        right: 2%;
+        left: auto;
+        top: -50px;
+        transform-origin: top right;
+        transform: scale(0.7);
+
+    }
+
+    .OnBoardingItemTwo .Content{
+
+
+        right: 2%;
+        top: auto;
+        transform-origin: top left;
+        transform: scale(0.7);
+
+    }
+  
+ }
+
+
+@media (min-width : 1600px){
+    
+
+    .OnBoardingItemTwo{
+        
+        block-size:  550px;
+        margin-block-start: 80px;
+    }
+    
+    .OnBoardingItemTwo .Stack{
+        
+        right: 2%;
+        left: auto;
+        top: -50px;
+        transform-origin: top right;
+        transform: scale(0.8);
+
+    }
+
+    .OnBoardingItemTwo .Content{
+
+
+        right: 2%;
+        top: auto;
+        transform-origin: top left;
+        transform: scale(0.8);
+
+    }
+
+ }
+
+
+@media (min-width : 1920px){
+    .OnBoardingItemTwo{
+        
+        block-size:  697px;
+        margin-block-start: 0px;
+    }
+    
+    .OnBoardingItemTwo .Stack{
+        
+        right: 0px;
+        left: auto;
+        top: auto;
+        transform-origin: top right;
+        transform: scale(1);
+
+    }
+
+    .OnBoardingItemTwo .Content{
+
+
+        right: 60px;
+        top: auto;
+        transform-origin: top left;
+        transform: scale(1);
+
+    }
+
+ }
+

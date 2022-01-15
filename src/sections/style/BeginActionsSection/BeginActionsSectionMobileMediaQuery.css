@@ -1,0 +1,84 @@
+@media (min-width : 320px){
+    .BeginActionsSection .VirtualTripContainer{
+
+        transform: scale(0.9);
+    
+    }
+    .BeginActionsSection .TakeTripContainer{
+
+        margin-block-start: 0px;
+        transform: scale(0.9);
+    }
+
+}
+
+@media (min-width : 360px){
+    .BeginActionsSection .VirtualTripContainer{
+
+        transform: scale(1);
+    
+    }
+    .BeginActionsSection .TakeTripContainer{
+
+        margin-block-start: 40px;
+        transform: scale(1);
+    }
+}
+
+@media (min-width : 425px){
+
+    .BeginActionsSection .DecoratedSeparatorTop{
+
+    
+        top: -12px;
+    
+        transform: scale(1.7) rotateZ(1deg) rotateX(180deg);
+        background-color: var(--background);
+    
+        mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
+        mask-repeat: no-repeat;
+        mask-size: 170%;
+        mask-position: -300px;
+    
+    }
+
+}
+
+@media (min-width :550px){
+
+
+}
+
+@media (min-width :650px){
+
+    .BeginActionsSection h2{
+
+        margin-block-end: 60px;
+        transform: scale(1.4);
+    }
+    
+
+    .BeginActionsSection .CardContainer{
+        inline-size: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        margin-block-end: 200px;
+    }
+
+    .BeginActionsSection .VirtualTripContainer{
+
+        transform: scale(1);
+    
+    }
+
+    .BeginActionsSection .TakeTripContainer{
+
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+    
+    }
+
+
+}

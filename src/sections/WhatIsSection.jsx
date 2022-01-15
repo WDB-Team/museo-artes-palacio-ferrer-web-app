@@ -2,9 +2,13 @@ import React, { Component } from 'react';
 
 import './style/WhatIsSection/WhatIsSectionMobile.css';
 import './style/WhatIsSection/WhatIsSectionMobileMediaQuery.css';
+import './style/WhatIsSection/WhatIsSectionDesktopMediaQuery.css';
 
 import img1 from '../assets/img/Captura Low.jpg';
+import img1High from './../assets/img/CapturaHigh.jpg';
+
 import img2 from '../assets/img/exterior Low v1.jpg';
+import img2High from '../assets/img/exteriorHigh.jpg';
 
 
 export default class WhatIsSection extends Component {
@@ -21,9 +25,19 @@ export default class WhatIsSection extends Component {
                     </div>
                 </div>
                 <div className = "Stack">
-                    <div className = "Positioned"><img src={img1} alt="" width="200px" height="200px" /></div>
+                    <div className = "Positioned"> 
+                        <picture>
+                                <source srcSet={img1High} media="(min-width : 768px)" />
+                                <img src={img1} alt="" width="200px" height="200px" />
+                        </picture>
+                    </div>
                     <div className = "Positioned"></div>
-                    <div className = "Positioned"><img src={img2} alt="" width="200px" height="200px" /></div>
+                    <div className = "Positioned">
+                        <picture>
+                                <source srcSet={img2High} media="(min-width : 768px)" />
+                                <img src={img2} alt="" width="200px" height="200px" />
+                        </picture>
+                    </div>
                 </div>
 
                 <div className="Content">
@@ -47,6 +61,17 @@ export default class WhatIsSection extends Component {
                 de la otrora colonia Fernandina de 
                 Jagua.
                 </p>
+
+                <p>
+                La institución acoge un Proyecto de Desarrollo Local que en sus 
+                momentos iniciales incluyó el remozamiento total de la 
+                planta alta del edificio. La iniciativa es liderada por Magda Chávez 
+                Sosa, quien precisó que “hemos venido organizando una 
+                oferta cultural tanto para nacionales como para extranjeros, pues 
+                antes de la apertura del museo realizábamos actividades 
+                fuera de él”.
+                </p>
+                
 
                 <button>Enseñame más</button>
                 </div>

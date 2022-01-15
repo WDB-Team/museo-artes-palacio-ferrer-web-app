@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import './style/GabiAndSofiSection/GabiAndSofiSectionMobile.css';
+import './style/GabiAndSofiSection/GabiAndSofiSectionMobileMediaQuery.css';
+import './style/GabiAndSofiSection/GabiAndSofiSectionDesktopMediaQuery.css';
 
 import img1 from './../assets/img/Estrena-nueva-sala-el-Museo-de-las-Artes-Palacio-Ferrer-de-Cienfuegos-3 Low v1.jpg';
 import img1High from './../assets/img/Estrena-nueva-sala-el-Museo-de-las-Artes-Palacio-Ferrer-de-Cienfuegos-3Highv1.jpg';

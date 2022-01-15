@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import './style/HeroSection/HeroSectionMobile.css';
 import './style/HeroSection/HeroSectionMobileMediaQuery.css';
-import './style/HeroSection/HeroSectionDesktop.css';
+import './style/HeroSection/HeroSectionDesktopMediaQuery.css';
 
 import img1 from '../assets/img/vue-exterieure Low v1.jpg';
 import img1High from '../assets/img/vue-exterieureHightv1.jpg';

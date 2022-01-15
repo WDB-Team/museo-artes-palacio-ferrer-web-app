@@ -26,6 +26,7 @@
     mask-size: 150%;
     mask-position: -100px;
 
+    
 }
 
 .GabiAndSofiSection .DecoratedImageTop{
@@ -43,7 +44,7 @@
     background-image: url("./../../../assets/img/241356113_2686140578355619_3558653241144157494_nLow.png");
     background-repeat: no-repeat;
     background-size: contain;
-
+    background-position: center;
     
 }
 
@@ -138,6 +139,7 @@
     block-size: 100%;
 
     object-fit: cover;
+    border-radius: 4px;
 
 }
 
@@ -167,6 +169,7 @@
     margin-top: 14px;
 
     object-fit: cover;
+    border-radius: 4px;
 }
 
 .GabiAndSofiSection .DecoratedImageBottom{
@@ -208,5 +211,3 @@
     mask-position: -100px;
 
 }
-
-

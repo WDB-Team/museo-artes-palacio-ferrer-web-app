@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import './style/EventAndMoreSection/EventAndMoreSectionMobile.css';
+import './style/EventAndMoreSection/EventAndMoreSectionMobileMediaQuery.css';
 
 import img1 from './../assets/img/269268297_277510874433471_5449431437297842405_n Low.jpg';
 import img1High from './../assets/img/269268297_277510874433471_5449431437297842405_n.jpg';

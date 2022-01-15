@@ -1,0 +1,68 @@
+@media (min-width : 1024px){    
+
+    .OnBoardingSection{
+        block-size: 2400px;
+    }
+
+    .OnBoardingSection .DecoratedSeparatorTop{
+
+        inline-size: 100%;
+        block-size: 126px;
+    
+        position: absolute;
+        top: -70px;
+    
+        background-color: var(--background);
+    
+        mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
+        mask-repeat: no-repeat;
+        mask-size: 120%;
+        mask-position: center;
+    
+    }
+
+    .OnBoardingSection .CTASection{
+        display: none;
+    }
+    
+    .OnBoardingSection .Content p{
+        display: block;
+    }
+
+}
+
+@media (min-width : 1280px){
+ 
+    .OnBoardingSection{
+        block-size: 2950px;
+    }
+
+  
+}
+
+@media (min-width : 1440px){
+    
+    .OnBoardingSection{
+        block-size: 3300px;
+    }
+
+ }
+
+
+@media (min-width : 1600px){
+    
+    .OnBoardingSection{
+        block-size: 3700px;
+    }
+
+ }
+
+
+@media (min-width : 1920px){
+    
+    .OnBoardingSection{
+        block-size: 4200px;
+    }
+
+ }
+

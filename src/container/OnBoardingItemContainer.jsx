@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './style/OnBoardingItemContainer/OnBoardingItemContainerMobile.css';
 import './style/OnBoardingItemContainer/OnBoardingItemContainerMobileMediaQuery.css';
+import './style/OnBoardingItemContainer/OnBoardinItemContainerDesktopMediaQuery.css';
 
 import OnBoardingItemOne from '../components/OnBoardingItems/OnBoardingItemOne';
 import OnBoardingItemTwo from '../components/OnBoardingItems/OnBoardingItemTwo';

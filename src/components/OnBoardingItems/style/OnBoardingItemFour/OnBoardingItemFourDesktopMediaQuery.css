@@ -1,0 +1,300 @@
+
+@media (min-width : 1024px){    
+
+    .OnBoardingItemFour{
+        inline-size: 100%;
+        block-size: 564px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    
+        position: absolute;
+        bottom: 50px;
+    }
+    
+     .OnBoardingItemFour .Stack{
+        
+        inline-size: 841px;
+        block-size: 793px;
+    
+        position: absolute;
+        right: 10px;
+        left: auto;
+        top: 50px;
+        transform-origin: top right ;
+        transform: scale(0.5);
+    }
+    
+     .OnBoardingItemFour .Stack div.Positioned:nth-of-type(1){
+        inline-size: 243px;
+        block-size: 324px;
+    
+        position: absolute;
+        left: 15%;
+        top: 55px;
+        z-index: 3;
+    
+        box-shadow: var(--elevation-3);
+    
+        border-radius: 34px;
+    }
+    
+     .OnBoardingItemFour .Stack div.Positioned:nth-of-type(1) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 34px;
+    
+        object-fit: cover;
+    
+       
+    }
+    
+     .OnBoardingItemFour .Stack div.Positioned:nth-of-type(2){
+        
+        inline-size: 1273px;
+        block-size: 1098px; 
+    
+        position: absolute;
+        left: -7%;
+        top: -250px;
+        z-index: 1;
+    
+        background-image: url("./../../../../assets/img/watercolor-4629348_1920High.png"); 
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    
+     .OnBoardingItemFour .Stack div.Positioned:nth-of-type(3){
+        inline-size: 387px;
+        block-size: 516px;
+    
+        position: absolute;
+        left: 35%;
+        top: 165px;
+        z-index: 2;
+    
+        border-radius: 39px;
+    
+        box-shadow: var(--elevation-1);
+        
+    }
+    
+     .OnBoardingItemFour .Stack div.Positioned:nth-of-type(3) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 39px;
+    
+        object-position: 0px 0px;
+        object-fit: cover;
+        
+    }
+
+       
+    .OnBoardingItemFour .Content{
+        block-size: 701px;
+        inline-size: 927px;
+    
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: flex-start;
+        align-items: center;
+    
+        padding-block-start: 40px;
+    
+        position: relative;
+        right: -40px;
+        top: 150px;
+        z-index: 1;
+
+        transform-origin: top left;
+        transform: scale(0.55);
+    }
+    
+    .OnBoardingItemFour .Content h2 {
+        inline-size: 100%;
+    
+        position: relative;
+    
+        top: 13px;
+        left: 50px;
+        
+        transform: scale(1) rotateZ(-12deg);
+    
+        text-align: center;
+        color: var(--primary-color);
+        font-size: 47px;
+        font-weight: var(--font-weight-bold);
+    }
+
+    .OnBoardingItemFour .Content h2 br:nth-of-type(1), .OnBoardingItemFour .Content h2 br:nth-of-type(3){
+        display: none;
+        }
+
+    .OnBoardingItemFour .Content p{
+        
+        inline-size: 55%;
+    
+        align-self: flex-end;
+    
+        margin-block-start: 100px;
+        margin-inline-end: 40px;
+        font-size: 27px;
+    }
+    
+    
+    .OnBoardingItemFour .Content button{
+    
+        inline-size: 246px;
+        block-size: 46px;
+    
+    
+        margin-block-start: 40px;
+        margin-inline-start: 60px;
+        padding-inline-start: 4px;
+    
+    
+        border: 3px solid var(--primary-color);
+        border-radius: 6px;
+    
+        position: static;
+    
+        background-color: rgba(255, 255, 255, 0);
+    
+        color: var(--primary-color);
+        font-size: 24px;
+        font-weight: var(--font-weight-bold);
+
+        transform: scale(1);
+    
+    }
+    
+
+}
+
+@media (min-width : 1280px){
+ 
+    .OnBoardingItemFour{
+        block-size: 564px;
+
+        bottom: 50px;
+    }
+
+    .OnBoardingItemFour .Stack{
+    
+        right: 10px;
+        left: auto;
+        top: 50px;
+        transform: scale(0.6);
+    }
+
+    .OnBoardingItemFour .Content{
+        
+        padding-block-start: 40px;
+    
+        right: -40px;
+        top: 150px;
+        z-index: 1;
+
+        transform-origin: top left;
+        transform: scale(0.65);
+    }
+
+  
+}
+
+@media (min-width : 1440px){
+    .OnBoardingItemFour{
+        block-size: 564px;
+
+        bottom: 100px;
+    }
+
+    .OnBoardingItemFour .Stack{
+    
+        right: 10px;
+        left: auto;
+        top: 50px;
+        transform: scale(0.7);
+    }
+
+    .OnBoardingItemFour .Content{
+        
+        padding-block-start: 40px;
+    
+        right: -40px;
+        top: 150px;
+        z-index: 1;
+
+        transform-origin: top left;
+        transform: scale(0.75);
+    }
+
+ }
+
+
+@media (min-width : 1600px){
+    .OnBoardingItemFour{
+        block-size: 564px;
+
+        bottom: 150px;
+    }
+
+    .OnBoardingItemFour .Stack{
+    
+        right: 10px;
+        left: auto;
+        top: 50px;
+        transform: scale(0.8);
+    }
+
+    .OnBoardingItemFour .Content{
+        
+        padding-block-start: 40px;
+    
+        right: -40px;
+        top: 150px;
+        z-index: 1;
+
+        transform-origin: top left;
+        transform: scale(0.85);
+    }
+
+ }
+
+
+@media (min-width : 1920px){
+    
+    .OnBoardingItemFour{
+        block-size: 864px;
+
+        bottom: 0px;
+    }
+
+    .OnBoardingItemFour .Stack{
+    
+        right: 10px;
+        left: auto;
+        top: 50px;
+        transform: scale(1);
+    }
+
+    .OnBoardingItemFour .Content{
+        
+        padding-block-start: 40px;
+    
+        right: -40px;
+        top: 150px;
+        z-index: 1;
+
+        transform-origin: top left;
+        transform: scale(1);
+    }
+ }
+

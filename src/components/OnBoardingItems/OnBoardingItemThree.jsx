@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './style/OnBoardingItemThree/OnBoardingItemThreeMobile.css';
 import './style/OnBoardingItemThree/OnBoardingItemThreeMobileMediaQuery.css';
+import './style/OnBoardingItemThree/OnBoardingItemThreeDesktopMediaQuery.css';
 
 import img1 from './../../assets/img/se-puede-subir-al-mirador.jpg';
 

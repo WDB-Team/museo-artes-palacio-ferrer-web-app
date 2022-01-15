@@ -165,40 +165,6 @@
     
 }
 
-
-.WhatIsSection .Stack h2 {
-    inline-size: 100%;
-
-    position: absolute;
-    left: 0%;
-    top: 205px;
-    z-index: 5;
-
-    text-align: center;
-    color: var(--primary-variant);
-    font-size: var(--font-size-medium-tall);
-    font-weight: var(--font-weight-bold);
-    
-}
-
-
-
-.WhatIsSection .Stack .DecoratedSeparatorMiddle{
-
-    inline-size: 494;
-    block-size: 134px;
-
-    position: relative;
-    top: 330px;
-    background-color: #A7A7A7;
-
-    mask-image: url("./../../../assets/svg/Motivo para separacion 1.svg");
-    mask-repeat: no-repeat;
-    mask-size: 130%;
-    mask-position: center;
-
-}
-
 .WhatIsSection .Content{
 
     display: flex;
@@ -217,6 +183,11 @@
     font-weight: 500;
 
     margin-block-end: 24px;
+}
+
+.WhatIsSection .Content p:nth-of-type(3){
+
+   display: none;
 }
 
 .WhatIsSection .Content button{

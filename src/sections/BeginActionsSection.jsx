@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import './style/BeginActionsSection/BeginActionsSectionMobile.css';
+import './style/BeginActionsSection/BeginActionsSectionMobileMediaQuery.css';
 
 export default class BeginActionsSection extends Component {
     render() {
@@ -11,6 +12,8 @@ export default class BeginActionsSection extends Component {
 
                 <h2>Eche un vistazo al museo <br /> o reserve un recorrido</h2>
                 
+                <div className="CardContainer">
+
                 <div className="VirtualTripContainer">
                     <h3>Recorrido Virtual</h3>
                     <p>
@@ -33,6 +36,7 @@ export default class BeginActionsSection extends Component {
                         sirve para planificarnos y brindarles el mejor servicio
                     </p>
                     <button>Reservar</button>
+                </div>
                 </div>
             </section>
         );

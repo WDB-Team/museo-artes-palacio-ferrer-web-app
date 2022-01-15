@@ -1,0 +1,289 @@
+
+@media (min-width : 1024px){    
+
+
+     .OnBoardingItemOne{
+        inline-size: 100%;
+   
+        block-size: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    
+ 
+        padding-block-start: 100px;
+        position: relative;
+    }
+      .OnBoardingItemOne .Stack{
+        
+        inline-size: 941px;
+        block-size: 805px;
+    
+        position: absolute;
+        left: 5%;
+
+        transform:  scale(0.5);
+        transform-origin: top left;
+
+    }
+    
+    
+     .OnBoardingItemOne .Stack div.Positioned:nth-of-type(1){
+        inline-size: 435px;
+        block-size: 325px;
+    
+        position: absolute;
+        left: 10%;
+        top: 100px;
+        z-index: 3;
+    
+        box-shadow: var(--elevation-3);
+    
+        border-radius: 76px;
+    }
+    
+     .OnBoardingItemOne .Stack div.Positioned:nth-of-type(1) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius: 76px;
+    
+        object-fit: cover;
+    
+       
+    }
+    
+     .OnBoardingItemOne .Stack div.Positioned:nth-of-type(2){
+        
+        inline-size: 1106px;
+        block-size: 805px; 
+    
+        position: absolute;
+        left: -40%;
+        top: -60px;
+        z-index: 1;
+    
+    
+        background-color: var(--primary-variant);
+        mask-image: url("./../../../../assets/svg/Mancha de Pintura mediana.svg"); 
+        mask-repeat: no-repeat;
+        mask-size: cover;
+    }
+    
+    
+     .OnBoardingItemOne .Stack div.Positioned:nth-of-type(3){
+        inline-size: 562px;
+        block-size: 421px;
+    
+        position: absolute;
+        left: 33%;
+        top: 275px;
+        z-index: 2;
+    
+        border-radius: 69px;
+    
+        box-shadow: var(--elevation-1);
+        
+    }
+    
+     .OnBoardingItemOne .Stack div.Positioned:nth-of-type(3) img
+    {
+        inline-size: 100%;
+        block-size: 100%;
+    
+        border-radius:69px;
+    
+        object-position: 0px 0px;
+        object-fit: cover;
+        
+    }
+    
+     .OnBoardingItemOne .Stack div.Positioned:nth-of-type(4){
+        inline-size: 1106px;
+        block-size: 805px;
+        
+        position: absolute;
+        z-index: 4;
+        left: -60%;
+        top: 200px;
+    
+        background-color: var(--secondary-color);
+        mask-image: url("./../../../../assets/svg/Mancha de Pintura mediana.svg"); 
+        mask-repeat: no-repeat;
+        mask-size: cover;
+    }
+    
+    
+    
+     .OnBoardingItemOne .Content{
+        block-size: 592px;
+        inline-size: 944px;
+    
+        display: flex;
+        flex-direction: column;
+    
+        justify-content: flex-start;
+        align-items: center;
+    
+        position: relative;
+        right: 3%;
+        transform: scale(0.55);
+        transform-origin: top right;
+
+    }
+    
+    
+     .OnBoardingItemOne .Content h2 {
+        inline-size: 100%;
+    
+        position: static;
+    
+        text-align: center;
+        color: var(--primary-color);
+        font-size: 47px;
+        font-weight: var(--font-weight-bold);
+
+        transform: scale(1);
+    }
+    
+     .OnBoardingItemOne .Content h2 br:nth-of-type(3){
+        display: none;
+    }
+    
+     .OnBoardingItemOne .Content p{
+        margin-block-start: 60px;
+        inline-size: 80%;
+        font-size: 27px;
+    }
+    
+     .OnBoardingItemOne .Content button{
+    
+        inline-size: 246px;
+        block-size: 46px;
+    
+    
+        position: static;
+    
+        margin-block-start: 50px;
+        padding-inline-start: 4px;
+    
+    
+        border: 3px solid var(--primary-color);
+        border-radius: 6px;
+    
+        background-color: rgba(255, 255, 255, 0);
+    
+        color: var(--primary-color);
+        font-size: 24px;
+        font-weight: var(--font-weight-bold);
+    
+        transform: scale(1);
+
+    }
+    
+}
+
+@media (min-width : 1280px){
+    .OnBoardingItemOne{
+        
+        block-size: 380px;
+        padding-block-start: 125px;
+    }
+    
+    .OnBoardingItemOne .Stack{
+        
+        left: 4%;
+        transform:  scale(0.65);
+
+    }
+
+    .OnBoardingItemOne .Content{
+
+
+        right: 4%;
+        transform: scale(0.65);
+
+    }
+
+  
+}
+
+@media (min-width : 1440px){
+    
+    .OnBoardingItemOne{
+        
+        block-size: 480px;
+        padding-block-start: 150px;
+    }
+    
+    .OnBoardingItemOne .Stack{
+        
+        left: 4%;
+        transform:  scale(0.7);
+
+    }
+
+    .OnBoardingItemOne .Content{
+
+
+        right: 4%;
+        transform: scale(0.7);
+
+    }
+
+  
+ }
+
+
+@media (min-width : 1600px){
+    
+    .OnBoardingItemOne{
+        
+        block-size: 580px;
+        padding-block-start: 175px;
+    }
+    
+    .OnBoardingItemOne .Stack{
+        
+        left: 4%;
+        transform:  scale(0.8);
+
+    }
+
+    .OnBoardingItemOne .Content{
+
+
+        right: 4%;
+        transform: scale(0.8);
+
+    }
+
+ }
+
+
+@media (min-width : 1920px){
+
+    .OnBoardingItemOne{
+        
+        block-size: 780px;
+        padding-block-start: 200px;
+    }
+    
+    .OnBoardingItemOne .Stack{
+        
+        left: 50px;
+        transform:  scale(1);
+
+    }
+
+    .OnBoardingItemOne .Content{
+
+
+        right: 50px;
+        transform: scale(1);
+
+    }
+
+ }
+

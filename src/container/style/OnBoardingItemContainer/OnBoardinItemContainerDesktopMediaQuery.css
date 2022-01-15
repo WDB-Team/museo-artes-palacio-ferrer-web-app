@@ -1,0 +1,181 @@
+
+@media (min-width : 1024px){    
+
+    .OnBoardingItemContainer .DecoratedSeparatorMiddle{
+    
+        inline-size: 2419px;
+        block-size: 658px;
+    
+        position: relative;
+        left: -625px;
+        top: -30px;
+        background-color: #A7A7A7;
+    
+        mask-image: url("./../../../assets/svg/Motivo para separacion 1.svg");
+        mask-repeat: no-repeat;
+        mask-size: 100%;
+        mask-position: center;
+        
+        transform-origin: center;
+        transform: scale(0.6);
+
+    }
+    
+    .OnBoardingItemContainer .DecoratedSeparatorMiddleSecond{
+    
+        inline-size: 2419px;
+        block-size: 658px;
+    
+    
+        position: relative;
+        left: -620px;
+        top: -400px;
+        transform-origin: center;
+        transform: rotateZ(-8deg) rotateX(180deg) scale(0.6);
+    
+        background-color: #A7A7A7;
+    
+        mask-image: url("./../../../assets/svg/Motivo para separacion 1.svg");
+        mask-repeat: no-repeat;
+        mask-size: 100%;
+        mask-position: center;
+    }
+
+    .OnBoardingItemContainer div.DecoratedSeparatorMiddle:nth-of-type(3){
+    
+        inline-size: 2419px;
+        block-size: 658px;
+    
+        position: relative;
+        left: -625px;
+        top: -760px;
+        background-color: #A7A7A7;
+    
+        mask-image: url("./../../../assets/svg/Motivo para separacion 1.svg");
+        mask-repeat: no-repeat;
+        mask-size: 100%;
+        mask-position: center;
+        
+        transform-origin: center;
+        transform: scale(0.6);
+
+    }
+
+}
+
+@media (min-width : 1280px){
+ 
+    .OnBoardingItemContainer .DecoratedSeparatorMiddle{
+    
+        left: -525px;
+        top: 0px;
+    
+        transform: scale(0.7);
+
+    }
+
+    .OnBoardingItemContainer .DecoratedSeparatorMiddleSecond{
+    
+        left: -575px;
+        top: -400px;
+
+        transform: rotateZ(-8deg) rotateX(180deg) scale(0.7);
+    }
+  
+    .OnBoardingItemContainer div.DecoratedSeparatorMiddle:nth-of-type(3){
+    
+        left: -525px;
+        top: -760px;
+        
+        transform-origin: center;
+        transform: scale(0.7);
+
+    }
+
+
+
+}
+
+@media (min-width : 1440px){
+    .OnBoardingItemContainer .DecoratedSeparatorMiddle{
+    
+        left: -425px;
+        top: 0px;
+    
+        transform: scale(0.8);
+
+    }
+    .OnBoardingItemContainer .DecoratedSeparatorMiddleSecond{
+    
+        left: -475px;
+        top: -400px;
+
+        transform: rotateZ(-8deg) rotateX(180deg) scale(0.8);
+    }
+
+    .OnBoardingItemContainer div.DecoratedSeparatorMiddle:nth-of-type(3){
+    
+        left: -425px;
+        top: -760px;
+        
+        transform-origin: center;
+        transform: scale(0.8);
+
+    }
+
+ }
+
+
+@media (min-width : 1600px){
+    
+    .OnBoardingItemContainer .DecoratedSeparatorMiddle{
+    
+        left: -325px;
+        top: 0px;
+    
+        transform: scale(0.9);
+
+    }
+
+    .OnBoardingItemContainer .DecoratedSeparatorMiddleSecond{
+    
+        left: -375px;
+        top: -400px;
+
+        transform: rotateZ(-8deg) rotateX(180deg) scale(0.9);
+    }
+
+    .OnBoardingItemContainer div.DecoratedSeparatorMiddle:nth-of-type(3){
+    
+        left: -325px;
+        top: -760px;
+        
+        transform-origin: center;
+        transform: scale(0.9);
+
+    }
+ }
+
+
+@media (min-width : 1920px){
+    
+    .OnBoardingItemContainer .DecoratedSeparatorMiddle{
+        left: -425px;
+        top: 0px;
+ 
+        transform: scale(1);
+
+    }
+
+    .OnBoardingItemContainer div.DecoratedSeparatorMiddle:nth-of-type(3){
+    
+        left: -425px;
+        top: -760px;
+        
+        transform-origin: center;
+        transform: scale(1);
+
+    }
+
+ }
+
