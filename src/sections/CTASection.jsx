@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 
 import './style/CTASection.css';
 import './style/CTASectionMediaQuery.css';
@@ -10,7 +11,7 @@ export default class CTASection extends Component {
                 
                 <div className="CTARecorridoVirtual">
                     <div className="DecoratedBox"></div>
-                    <button><span>Iniciar Recorrido Virtual</span> </button>
+                    <Link className="Button" to="/recorridoVirtual"><span>Iniciar Recorrido Virtual</span> </Link>
                 </div>
 
                 <button className="ReservarRecorridoButton">Reservar Recorrido</button>

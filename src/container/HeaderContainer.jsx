@@ -19,19 +19,17 @@ export default class HeaderContainer extends Component {
         let intersecting = entries.filter((elem)=>elem.isIntersecting);
         let notIntersecting = entries.filter((elem)=>!(elem.isIntersecting));
 
-        console.log(intersecting);
-        console.log(notIntersecting);
 
         if(intersecting.length > 0)
         {
-            console.log("Hola");
+          
             this.getRoot().classList.remove("NonHero");
             this.getRoot().classList.add("OnHero");
            
         }
         if(notIntersecting.length > 0)
         {
-            console.log("Mundo");
+            
             this.getRoot().classList.remove("OnHero");
             this.getRoot().classList.add("NonHero");
         }
@@ -48,7 +46,9 @@ export default class HeaderContainer extends Component {
 
     componentDidMount(){
         let intersectionObserver = new IntersectionObserver(this.onObserver,{threshold : 0.5 });
-        intersectionObserver.observe(this.heroRef.current.getRoot());
+        if(this.heroRef.current != undefined){
+            intersectionObserver.observe(this.heroRef.current.getHeroSectionRef().getRoot());
+        }
     }
 }
 

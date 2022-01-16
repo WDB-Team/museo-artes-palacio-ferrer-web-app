@@ -46,7 +46,7 @@
     top: 6px;
 }
 
-.CTASection .CTARecorridoVirtual button{
+.CTASection .CTARecorridoVirtual .Button{
     
     inline-size: 276px;
     block-size: 63px;
@@ -55,12 +55,15 @@
     box-shadow: var(--elevation-2);
     background-color: var(--primary-color);
 
+    padding-block-start: 2px;
+
     color: var(--on-primary);
+    text-align: center;
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-bold);
 }
 
-.CTASection .CTARecorridoVirtual button span{
+.CTASection .CTARecorridoVirtual .Button span{
     inline-size: 60%;
 
     display: inline-block;

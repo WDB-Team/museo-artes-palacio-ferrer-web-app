@@ -1,0 +1,170 @@
+.InterestInformationContainer{
+    inline-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.InterestInformationContainer h3{
+    inline-size: 80%;
+
+    font-size: 31px;
+    color: #22354B;
+}
+
+.InterestInformationContainer .CardItem{
+    inline-size: 288px;
+    block-size: 131px;
+
+    margin-block-start:40px;
+    
+    border-radius: 11px;
+
+    box-shadow: var(--elevation-2);
+}
+
+.InterestInformationContainer .CardItem.One{
+
+    background-image: url("./../../../assets/img/vue-exterieure\ Low\ v1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.InterestInformationContainer .CardItem.One .Foreground{
+
+    inline-size: 100%;
+    block-size: 100%;
+    background-color: #22354bb2;
+
+    border-radius: 11px;
+}
+
+.InterestInformationContainer .CardItem.One h4{
+
+    padding-block-start: 10px;
+    padding-inline-start: 20px;
+    font-size: 26px;
+    color: white;
+}
+
+.InterestInformationContainer .CardItem.One button{
+    
+    inline-size: 113px;
+    block-size: 25px;
+    
+    position: relative;
+
+    left: 90px;
+    top: 45px;
+
+    border-radius: 6px;
+
+    background-color: white;
+
+    color: #22354b;
+    font-weight: 700;
+    font-size: 17px;
+
+}
+
+
+.InterestInformationContainer .CardItem.Two{
+
+    background-image: url("./../../../assets/img/IMG20220111123206_00 Low v1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -210px;
+
+
+}
+
+.InterestInformationContainer .CardItem.Two .Foreground{
+
+    inline-size: 100%;
+    block-size: 100%;
+    background-color: #ffffffbb;
+
+    border-radius: 11px;
+}
+
+.InterestInformationContainer .CardItem.Two h4{
+
+    padding-block-start: 10px;
+    padding-inline-start: 20px;
+    font-size: 22px;
+    color: #22354b;
+}
+
+.InterestInformationContainer .CardItem.Two button{
+    
+    inline-size: 113px;
+    block-size: 25px;
+    
+    position: relative;
+
+    left: 90px;
+    top: 22px;
+
+    border-radius: 6px;
+
+    background-color: #22354b;
+
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+
+}
+
+
+
+.InterestInformationContainer .CardItem.Three{
+
+    background-image: url("./../../../assets/img/DSC09847 Low v1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-block-end: 100px;
+
+}
+
+.InterestInformationContainer .CardItem.Three .Foreground{
+
+    inline-size: 100%;
+    block-size: 100%;
+    background-color: #22354bc7;
+
+    border-radius: 11px;
+}
+
+.InterestInformationContainer .CardItem.Three h4{
+
+    padding-block-start: 10px;
+    padding-inline-start: 20px;
+    font-size: 26px;
+    color: white;
+}
+
+.InterestInformationContainer .CardItem.Three button{
+    
+    inline-size: 113px;
+    block-size: 25px;
+    
+    position: relative;
+
+    left: 90px;
+    top: 45px;
+
+    border-radius: 6px;
+
+    background-color: white;
+
+    color: #22354b;
+    font-weight: 700;
+    font-size: 17px;
+
+}

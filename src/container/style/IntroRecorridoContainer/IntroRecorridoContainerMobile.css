@@ -1,0 +1,93 @@
+
+.IntroRecorridoContainer{
+    padding-block-start: 66px;
+    inline-size: 100%;
+
+    position: relative;
+
+}
+
+.IntroRecorridoContainer .Content{
+    inline-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.IntroRecorridoContainer .Content .DecoratedImage{
+    inline-size: 434px;
+    block-size: 434px;
+
+    position: absolute;
+    right: -170px;
+    top: 270px;
+    z-index: 1;
+
+    background-image: url("./../../../assets/img/paint-2090112_1920\ Low.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.IntroRecorridoContainer .Content h2{
+    inline-size: 75%;
+    margin-block-start: 60px;
+
+    font-size: 33px;
+    color: #22354B;
+
+    z-index: 2;
+}
+
+.IntroRecorridoContainer .Content p{
+    inline-size: 65%;
+    margin-block-start: 20px;
+
+    font-size: 16px;
+    color: #22354B;
+
+    z-index: 2;
+}
+
+.IntroRecorridoContainer .Content .NotaContainer{
+
+    inline-size: 90%;
+
+    block-size: 469px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-block-start: 60px;
+
+    margin-block-end: 60px;
+
+    background-color: #00f3d331;
+
+    z-index: 2;
+
+}
+
+.IntroRecorridoContainer .Content .NotaContainer h3{
+
+    inline-size: 100%;
+    margin-block-start: 20px;
+    padding-inline-start: 20px;
+
+    font-size: 25px;
+    color: #22354B;
+}
+
+.IntroRecorridoContainer hr{
+
+
+    inline-size: 95%;
+    block-size: 2px;
+    background-color: #22354B;
+
+    margin: 0 auto;
+    margin-block-end: 20px;
+}

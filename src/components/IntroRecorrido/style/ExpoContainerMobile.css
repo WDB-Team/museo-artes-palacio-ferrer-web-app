@@ -1,0 +1,234 @@
+.ExpoContainer{
+    inline-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.ExpoContainer h3{
+    inline-size: 80%;
+
+    font-size: 31px;
+    color: #22354B;
+}
+
+.ExpoContainer .CardItem{
+    inline-size: 288px;
+    block-size: 131px;
+
+    margin-block-start:60px;
+    
+    position: relative;
+
+    border-radius: 11px;
+
+    box-shadow: var(--elevation-2);
+}
+
+.ExpoContainer .CardItem:nth-of-type(2n){
+    background-color: white;
+}
+
+.ExpoContainer .CardItem:nth-of-type(2n+1){
+    background-color: #22354b;
+}
+
+
+.ExpoContainer .CardItem .DecoratedImage{
+    block-size: 150px;
+    inline-size: 150px;
+
+    position: absolute;
+    right: -20px;
+    top: -50px;
+}
+
+.ExpoContainer .CardItem.One .DecoratedImage{
+
+    background-image: url("./../../../assets/img/RecorridoVirtual/IMG20220111121359_00UltraLow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    right: -20px;
+    top: -50px;
+}
+
+.ExpoContainer .CardItem.Two .DecoratedImage{
+
+    background-image: url("./../../../assets/img/RecorridoVirtual/IMG20220111115554_00UltraLow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    right: -20px;
+    top: -50px;
+}
+
+.ExpoContainer .CardItem.Three .DecoratedImage{
+
+    background-image: url("./../../../assets/img/RecorridoVirtual/IMG20220111120854_00UltraLow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    right: -20px;
+    top: -50px;
+}
+
+.ExpoContainer .CardItem.Four .DecoratedImage{
+
+    background-image: url("./../../../assets/img/RecorridoVirtual/IMG-20220111-WA0011Low.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    right: -20px;
+    top: -50px;
+}
+
+
+.ExpoContainer .CardItem.Five .DecoratedImage{
+
+    background-image: url("./../../../assets/img/RecorridoVirtual/IMG20220111121055_00Low.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    right: -20px;
+    top: -50px;
+}
+
+.ExpoContainer .CardItem.Six .DecoratedImage{
+
+    background-image: url("./../../../assets/img/RecorridoVirtual/IMG20220111121307_00UltraLow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    right: -20px;
+    top: -50px;
+}
+
+
+.ExpoContainer .CardItem.Seven .DecoratedImage{
+
+    background-image: url("./../../../assets/img/RecorridoVirtual/IMG20220111121516_00UltraLow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    right: -20px;
+    top: -50px;
+}
+
+.ExpoContainer .CardItem.Eight .DecoratedImage{
+
+    background-image: url("./../../../assets/img/RecorridoVirtual/IMG-20220111-WA0021Low.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    right: -20px;
+    top: -50px;
+}
+
+.ExpoContainer .CardItem.Nine .DecoratedImage{
+
+    background-image: url("./../../../assets/img/RecorridoVirtual/IMG20220111123333_00UltraLow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    right: -20px;
+    top: -50px;
+}
+
+
+.ExpoContainer .CardItem h4{
+
+    padding-block-start: 10px;
+    padding-inline-start: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.ExpoContainer .CardItem:nth-of-type(2n) h4{
+    
+    color: #22354b;
+}
+
+
+.ExpoContainer .CardItem:nth-of-type(2n + 1) h4{
+    color: white;
+}
+
+.ExpoContainer .CardItem:nth-of-type(2n) button{
+    background-color:  #22354b;
+
+    color: white;
+}
+
+
+.ExpoContainer .CardItem button{
+    
+    inline-size: 103px;
+    block-size: 25px;
+    
+    position: relative;
+
+    left: 40px;
+    top: 45px;
+
+    border-radius: 6px;
+
+    background-color: white;
+
+    color: #22354b;
+    font-weight: 700;
+    font-size: 17px;
+
+}
+
+.ExpoContainer .CardItem:nth-of-type(2n + 1) button{
+ 
+    background-color:  white;
+
+    color: #22354b;
+}
+
+
+.ExpoContainer .CardItem.Nine{
+
+    margin-block-end: 100px;
+}
+
+
+.ExpoContainer > .DecoratedImage{
+    block-size: 581px;
+    inline-size: 674px;
+
+    position: absolute;
+
+    left: -250px;
+
+    background-image: url("./../../../assets/img/watercolor-4629348_1920Low.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ExpoContainer > .DecoratedImage.One{
+    top: 0px;
+}
+
+.ExpoContainer > .DecoratedImage.Two{
+    top: 650px;
+    
+}
+
+.ExpoContainer > .DecoratedImage.Three{
+    bottom: 20px;
+}
