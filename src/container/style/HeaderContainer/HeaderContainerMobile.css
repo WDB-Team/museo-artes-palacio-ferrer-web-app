@@ -1,3 +1,8 @@
+/************************/
+.HeaderContainer *{
+    transition: all 0s ease;
+}
+/**************************/
 .HeaderContainer{
 
     block-size: 66px;
@@ -8,7 +13,10 @@
     justify-content: space-between;
 
     position: fixed;
+    top: 0px;
     z-index: 10;
+
+    transition: all 0s ease;
 }
 
 .HeaderContainer .Logo{
@@ -59,4 +67,46 @@
     mask-repeat: no-repeat;
     mask-size: 60%;
     mask-position: center;
+}
+
+
+
+.HeaderContainer.OnHero{
+
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.HeaderContainer.OnHero .Logo span{
+
+    background-color: var(--primary-color);
+
+
+}
+
+.HeaderContainer.OnHero .Menu span{
+
+    background-color: var(--primary-color);
+
+   
+}
+
+.HeaderContainer.NonHero{
+
+    background-color: var(--primary-color);
+
+}
+
+.HeaderContainer.NonHero .Logo span{
+
+    background-color: var(--on-primary);
+
+
+}
+
+.HeaderContainer.NonHero .Menu span{
+
+    background-color: var(--on-primary);
+
+   
 }

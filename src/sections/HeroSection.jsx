@@ -12,10 +12,20 @@ import img2High from '../assets/img/the-towerHightv1.jpg';
 
 
 export default class HeroSection extends Component {
+    
+    constructor(props){
+        super(props);
+        this.root = React.createRef();
+    }
+
+    getRoot(){
+        return this.root.current;
+    }
+
     render() {
         return (
 
-            <div className = "HeroSectionContainer">
+            <div ref={this.root} className = "HeroSectionContainer">
 
                 <div className = "TitleContainerShadow">
                     <div className="TitleContainer">

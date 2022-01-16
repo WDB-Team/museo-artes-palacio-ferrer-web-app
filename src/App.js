@@ -14,18 +14,32 @@ import EventAndMoreSection from './sections/EventAndMoreSection';
 
 import BeginActionsSection from './sections/BeginActionsSection';
 
-function App() {
-  return (
-    <div className="App">
-      <HeaderContainer />
-      <HeroSection />
+
+import React, { Component } from 'react'
+
+export default class App extends Component {
+  
+  constructor(props){
+    super(props);
+
+    this.heroSection = React.createRef();
+  }
+  
+  render() {
+
+    return (
+      <div className="App">
+      
+      <HeroSection ref={this.heroSection} />
       <OnBoardingSection />
       <WhatIsSection />
       <GabiAndSofiSection />
       <EventAndMoreSection />
       <BeginActionsSection />
-    </div>
-  );
-}
+    
+      <HeaderContainer heroRef={this.heroSection} />
 
-export default App;
+    </div>
+    )
+  }
+}
