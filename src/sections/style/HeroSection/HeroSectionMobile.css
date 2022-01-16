@@ -28,6 +28,10 @@
     inline-size: 100%;
     block-size: 100%; 
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: var(--surface);  
 
     clip-path: polygon(12% 6%, 100% 0, 100% 66%, 0 100%);
@@ -35,8 +39,8 @@
 
 .HeroSectionContainer .TitleContainerShadow .TitleContainer h1{
     
-    padding-block-start: 6px;
-    padding-inline-start: 40px;
+    padding-block-end: 16px;
+    
 
     color: var(--primary-color);
     font-size: var(--font-size-medium-tall);

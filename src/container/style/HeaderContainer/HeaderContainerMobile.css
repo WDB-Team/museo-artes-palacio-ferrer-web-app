@@ -91,10 +91,31 @@
    
 }
 
-.HeaderContainer.NonHero{
+.HeaderContainer.OnGAS{
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: var(--elevation-2);
+}
+
+.HeaderContainer.OnGAS .Logo span{
 
     background-color: var(--primary-color);
 
+
+}
+
+.HeaderContainer.OnGAS .Menu span{
+
+    background-color: var(--primary-color);
+
+   
+}
+
+
+.HeaderContainer.NonHero{
+
+    background-color: var(--primary-color);
+    box-shadow: var(--elevation-2);
 }
 
 .HeaderContainer.NonHero .Logo span{

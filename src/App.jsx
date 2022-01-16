@@ -14,23 +14,23 @@ export default class App extends Component {
   constructor(props){
     super(props);
 
-    this.homeSectionRef = React.createRef();
+    this.headerRef = React.createRef();
   }
   
   render() {
 
     return (
       <div className="App">
-        
+        <HeaderContainer ref={this.headerRef} />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home ref={this.homeSectionRef} />} />
-            <Route path="recorridoVirtual" element={<RecorridoVirtual />} />
+            <Route path="/" element={<Home headerRef={this.headerRef} />} />
+            <Route path="recorridoVirtual" element={<RecorridoVirtual headerRef={this.headerRef} />} />
           </Routes>
         </BrowserRouter>
       
     
-      <HeaderContainer heroRef={this.homeSectionRef} />
+      
 
     </div>
     )

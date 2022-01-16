@@ -75,7 +75,8 @@
 
     inline-size: 70%;
     line-height: 24px;
-    font-weight: var(--font-weight-bold);
+    text-align: start;
+    font-weight: 500;
     font-size: 16px;
     color: rgb(236, 236, 236);
 }

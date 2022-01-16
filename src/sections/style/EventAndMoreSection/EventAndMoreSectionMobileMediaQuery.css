@@ -41,6 +41,15 @@
         top: 0px;
         z-index: 1;
     }
+
+    .EventAndMoreSection .Content .SocialMedia h3{
+
+    
+        color: var(--primary-color);
+        text-align: center;
+        font-size: 20px;
+    }
+
 }
 
 @media (min-width : 425px){

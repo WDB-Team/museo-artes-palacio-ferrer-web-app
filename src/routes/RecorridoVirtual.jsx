@@ -10,4 +10,10 @@ export default class RecorridoVirtual extends Component {
             </React.Fragment>
         );
     }
+
+    componentDidMount(){
+        document.querySelector(".App").scrollTo(0,0);
+    }
+
 }
+

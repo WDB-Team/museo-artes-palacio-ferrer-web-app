@@ -12,9 +12,19 @@ import img2 from './../assets/img/Diseño-sin-título7-1.jpg';
 
 
 export default class GabiAndSofiSection extends Component {
+
+    constructor(props){
+        super(props);
+        this.root = React.createRef();
+    }
+
+    getRoot(){
+        return this.root.current;
+    }
+
     render() {
         return (
-            <section className="GabiAndSofiSection">
+            <section ref={this.root} className="GabiAndSofiSection">
 
                 <div className="DecoratedSeparatorTop"></div>
 

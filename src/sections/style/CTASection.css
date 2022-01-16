@@ -51,14 +51,17 @@
     inline-size: 276px;
     block-size: 63px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     border-radius: 12px;
     box-shadow: var(--elevation-2);
     background-color: var(--primary-color);
 
-    padding-block-start: 2px;
-
     color: var(--on-primary);
     text-align: center;
+    text-decoration: none;
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-bold);
 }
@@ -73,6 +76,10 @@
     inline-size: 198px;
     block-size: 45px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     border-radius: 12px;
     box-shadow: var(--elevation-1);
     background-color: var(--primary-color);
@@ -80,6 +87,8 @@
     color: var(--on-primary);
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-bold);
+
+    text-decoration: none;
 }
 
 @media (min-width : 768px){

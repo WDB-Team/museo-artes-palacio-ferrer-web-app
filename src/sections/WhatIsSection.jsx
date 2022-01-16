@@ -12,9 +12,20 @@ import img2High from '../assets/img/exteriorHigh.jpg';
 
 
 export default class WhatIsSection extends Component {
+
+    constructor(props){
+        super(props);
+        this.root = React.createRef();
+    }
+
+    getRoot(){
+        return this.root.current;
+    }
+
+    
     render() {
         return (
-            <div className="WhatIsSection">
+            <div ref={this.root} className="WhatIsSection">
                  <div className="DecoratedSeparatorTop"></div>
 
                  <div className = "TitleContainerShadow">

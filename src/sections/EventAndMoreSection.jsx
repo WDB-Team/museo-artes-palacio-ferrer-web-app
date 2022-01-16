@@ -13,9 +13,19 @@ import img3 from './../assets/img/268851673_277510967766795_5993425407020732372_
 import img3High from './../assets/img/268851673_277510967766795_5993425407020732372_n.jpg';
 
 export default class EventAndMoreSection extends Component {
+    
+    constructor(props){
+        super(props);
+        this.root = React.createRef();
+    }
+
+    getRoot(){
+        return this.root.current;
+    }
+
     render() {
         return (
-            <section className="EventAndMoreSection">
+            <section ref={this.root} className="EventAndMoreSection">
                 <div className="Content">
                         <h2> Eventos, Intercambios  <br /> y más...</h2>
                         
