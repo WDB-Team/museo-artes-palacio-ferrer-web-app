@@ -46,7 +46,7 @@ export default class HeaderContainer extends Component {
 
     componentDidMount(){
         let intersectionObserver = new IntersectionObserver(this.onObserver,{threshold : 0.5 });
-        if(this.heroRef.current != undefined){
+        if(this.heroRef.current !== undefined){
             intersectionObserver.observe(this.heroRef.current.getHeroSectionRef().getRoot());
         }
     }

@@ -9,9 +9,6 @@ import HeaderContainer from './container/HeaderContainer';
 import Home from './routes/Home';
 import RecorridoVirtual from './routes/RecorridoVirtual';
 
-import IntroRecorridoContainer from './container/IntroRecorridoContainer';
-
-
 export default class App extends Component {
   
   constructor(props){
