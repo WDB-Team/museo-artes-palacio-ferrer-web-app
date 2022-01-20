@@ -6,6 +6,9 @@
     justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
+
+    position: relative;
+    z-index: 100;
 }
 
 .FooterContainer .Contact{
