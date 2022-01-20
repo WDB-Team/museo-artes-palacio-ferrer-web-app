@@ -79,9 +79,14 @@
     color: #E7E7E7;
 }
 
-.BeginActionsSection .VirtualTripContainer button{
+.BeginActionsSection .VirtualTripContainer .Button{
     inline-size: 45%;
     block-size: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 
     align-self: center;
 
@@ -134,11 +139,17 @@
     color: #5A728D;
 }
 
-.BeginActionsSection .TakeTripContainer button{
+.BeginActionsSection .TakeTripContainer .Button{
     inline-size: 45%;
     block-size: 32px;
 
     align-self: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
 
     border-radius: 6px;
 

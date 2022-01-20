@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './style/BeginActionsSection/BeginActionsSectionMobile.css';
 import './style/BeginActionsSection/BeginActionsSectionMobileMediaQuery.css';
@@ -24,7 +25,7 @@ export default class BeginActionsSection extends Component {
                         ya que nuestro deseo es que pueda visitarnos personalmente y pasar 
                         el rato con nosotros.
                     </p>
-                    <button>Comenzar</button>
+                    <Link className="Button" to="/recorridoVirtual">Comenzar</Link>
                 </div>
 
                 <div className="TakeTripContainer">
@@ -35,7 +36,7 @@ export default class BeginActionsSection extends Component {
                         reservar siempre que venga dentro del horario. Pero la reserva 
                         sirve para planificarnos y brindarles el mejor servicio
                     </p>
-                    <button>Reservar</button>
+                    <Link className="Button" to="">Reservar</Link>
                 </div>
                 </div>
             </section>

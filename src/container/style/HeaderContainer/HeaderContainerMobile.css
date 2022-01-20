@@ -6,7 +6,7 @@
 .HeaderContainer{
 
     block-size: 66px;
-    inline-size: 100%;
+    inline-size: 100vw;
 
     display: flex;
     align-items: center;
@@ -67,6 +67,86 @@
     mask-repeat: no-repeat;
     mask-size: 60%;
     mask-position: center;
+}
+
+.HeaderContainer nav.Modal{
+    display: none;
+    position: relative;
+   
+}
+
+.HeaderContainer .Modal button{
+    inline-size: 48px;
+    block-size: 48px;
+
+    position: absolute;
+    right: 10%;
+    top: 5%;
+
+    border-radius: 6px;
+
+    background-color: white;
+    
+    font-size: 26px;
+    color: var(--primary-color);
+
+}
+
+.HeaderContainer .Modal ul{
+    
+    block-size: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-block-end: 200px;
+
+    list-style: none;
+}
+
+.HeaderContainer .Modal a{
+    color:var(--on-primary);
+
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.HeaderContainer .DecoratedImage{
+    
+    block-size: 250px;
+    inline-size: 100%;
+
+    position: absolute;
+    bottom: -20px;
+
+    background-color: white;
+
+    mask-image: url("./../../../assets/svg/Logo.svg");
+    mask-repeat: space;
+    mask-size: cover;
+}
+
+.HeaderContainer nav.Modal.Open{
+    
+    block-size: 100vh;
+    inline-size: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+
+    background-color: var(--primary-color);
+}
+
+.HeaderContainer nav.Modal.Closed{
+    display: none;
 }
 
 

@@ -20,7 +20,7 @@ export default class Home extends Component {
         this.headerRef = props.headerRef;
         
         this.intersectionObserverHero = undefined;
-        this.intersectionObserverGAS = undefined;
+        /*this.intersectionObserverGAS = undefined;*/
     }
 
     getHeroSectionRef(){
@@ -58,10 +58,10 @@ export default class Home extends Component {
         this.intersectionObserverHero = new IntersectionObserver(this.onObserver,{threshold : 0.5 });
         this.intersectionObserverHero.observe(this.getHeroSectionRef().getRoot());
  
-        this.intersectionObserverGAS = new IntersectionObserver(this.onObserver,{threshold : [0,0.3,0.5,0.7, 0.8] });
+       /* this.intersectionObserverGAS = new IntersectionObserver(this.onObserver,{threshold : [0,0.3,0.5,0.7, 0.8] });
         this.intersectionObserverGAS.observe(this.getGabiAndSofiSectionRef().getRoot());
         this.intersectionObserverGAS.observe(this.getWhatIsSectionRef().getRoot());
-        this.intersectionObserverGAS.observe(this.getEventSectionRef().getRoot());
+        this.intersectionObserverGAS.observe(this.getEventSectionRef().getRoot());*/
     }
 
     onObserver = (entries,observer)=>{
@@ -76,7 +76,7 @@ export default class Home extends Component {
             this.headerRef.current.getRoot().classList.remove("NonHero");
             this.headerRef.current.getRoot().classList.add("OnHero");
            
-        } else if(intersecting.some((e)=> (e.target.className === "GabiAndSofiSection" && e.intersectionRatio > 0.7))){
+        }/* else if(intersecting.some((e)=> (e.target.className === "GabiAndSofiSection" && e.intersectionRatio > 0.7))){
             
            
 
@@ -89,12 +89,12 @@ export default class Home extends Component {
             this.headerRef.current.getRoot().classList.remove("OnGAS");
             this.headerRef.current.getRoot().classList.add("NonHero");
         
-        }else if(notIntersecting.some((e)=>e.target.className === "HeroSectionContainer")){
+        }*/else if(notIntersecting.some((e)=>e.target.className === "HeroSectionContainer")){
             
             this.headerRef.current.getRoot().classList.remove("OnHero");
             this.headerRef.current.getRoot().classList.add("NonHero");
 
-        }else if(intersecting.some((e)=>e.target.className === "EventAndMoreSection" && e.intersectionRatio > 0.8) && this.headerRef.current.getRoot().classList.contains("OnGAS")){
+        }/*else if(intersecting.some((e)=>e.target.className === "EventAndMoreSection" && e.intersectionRatio > 0.8) && this.headerRef.current.getRoot().classList.contains("OnGAS")){
             this.headerRef.current.getRoot().classList.remove("OnGAS");
             this.headerRef.current.getRoot().classList.add("NonHero");
             this.headerRef.current.getRoot().classList.add("OnEvent");
@@ -102,7 +102,7 @@ export default class Home extends Component {
             this.headerRef.current.getRoot().classList.add("OnGAS");
             this.headerRef.current.getRoot().classList.remove("NonHero");
             this.headerRef.current.getRoot().classList.remove("OnEvent");
-        }
+        }*/
 
         
 

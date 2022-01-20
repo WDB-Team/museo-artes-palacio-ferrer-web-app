@@ -1,0 +1,82 @@
+@media (min-width : 320px){
+
+
+
+.HeaderContainer .Modal ul{
+    
+    block-size: 26%;
+
+   
+    margin-block-end: 100px;
+
+  
+}
+
+
+
+.HeaderContainer .Modal ul li a{
+
+    font-size: 22px;
+    
+}
+
+.HeaderContainer .DecoratedImage{
+    
+    block-size: 200px;
+}
+
+
+}
+
+@media (min-width : 360px){
+
+    
+.HeaderContainer .Modal ul{
+    
+    block-size: 30%;
+
+   
+    margin-block-end: 200px;
+
+  
+}
+
+
+
+.HeaderContainer .Modal ul li a{
+
+    font-size: 26px;
+    
+}
+
+.HeaderContainer .DecoratedImage{
+    
+    block-size: 250px;
+}
+
+
+}
+
+@media (min-width : 425px){
+        
+    .HeaderContainer .DecoratedImage{
+        
+        block-size: 300px;
+
+        
+    }
+    
+
+}
+
+@media (min-width :550px){
+
+
+}
+
+@media (min-width :650px){
+
+
+
+
+}

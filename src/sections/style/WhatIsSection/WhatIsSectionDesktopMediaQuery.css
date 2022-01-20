@@ -205,11 +205,12 @@
     
     .WhatIsSection .Content p{
         
+        margin-block-start: 20px;
         inline-size: 90%;
         text-align: left;
         font-size: 28px;
-        font-weight: 500;
-    
+        font-weight: 400;
+        line-height: 38px;
         margin-block-end: 10px;
     }
 

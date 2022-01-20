@@ -8,7 +8,7 @@
         display: flex;
         flex-direction: column;
     
-        margin-top: 60px;
+        margin-top: 20px;
     
         position: relative;
         background-color: var(--primary-color);
@@ -22,15 +22,15 @@
         block-size: 126px;
     
         position: absolute;
-        top: -20px;
+        top: -60px;
         z-index: 1;
     
         background-color: var(--primary-color);
     
         mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
         mask-repeat: no-repeat;
-        mask-size: 100%;
-        mask-position: -100px;
+        mask-size: 110%;
+        mask-position: center;
     
         transform: scale(1);
 
@@ -44,7 +44,10 @@
         margin: 0;
     
         position:absolute;
-        top: -130px;
+
+        bottom: 0px;
+        right: 60px;
+        top: auto;
         
         z-index: 2;
     
@@ -58,44 +61,57 @@
     
     .GabiAndSofiSection .Content{
     
-        margin-block-start: -140px;
-        inline-size: 100%;
+        inline-size: 825px;
         block-size: 816px;
-    
+        
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     
+        position: absolute;
+        left: 450px;
+        bottom: 1px;
+
         color: var(--on-primary);
-    
+        
         transform: scale(1);
 
     }
     
     .GabiAndSofiSection .Content h2{
-        inline-size: 90%;
-    
+        inline-size: 100%;
+        
+        position: absolute;
+        top: -80px;
+        left: -300px;
+
         text-align: center;
-        font-size: var(--font-size-tall);
+        font-size: 64px;
+        
+        transform: rotateZ(6deg);
     }
     
     
     .GabiAndSofiSection .Content p{
     
-        inline-size: 70%;
-        line-height: 24px;
-        font-weight: var(--font-weight-bold);
-        font-size: 16px;
+        margin-block-start: 150px;
+
+        inline-size: 583px;
+        line-height: 42px;
+        font-weight: 500;
+        font-size: 26px;
         color: rgb(236, 236, 236);
     }
     
     .GabiAndSofiSection .Content button{
-        inline-size: 157px;
-        block-size: 30px;
+        inline-size: 246px;
+        block-size: 46px;
     
     
         padding-inline-start: 4px;
+
+        margin-block-start: 60px;
         margin-block-end: 16px;
     
         border: 3px solid var(--on-primary);
@@ -105,7 +121,7 @@
         background-color: rgba(255, 255, 255, 0);
     
         color: var(--on-primary);
-        font-size: var(--font-size-small-medium);
+        font-size: 27px;
         font-weight: var(--font-weight-bold);
     
     }
@@ -119,6 +135,9 @@
         justify-content: space-around;
         align-items: center;
 
+        position: absolute;
+        right: 10px;
+        z-index: 1;
         transform: scale(1);
     }
     
@@ -128,11 +147,13 @@
     
         display: flex;
         justify-content: center;    
-        /*position: absolute;
-        left: 50%;
-        top: 0px;
+        
+        position: absolute;
+        right: 40px;
+        left: auto;
+        top: 40px;
         z-index: 4;
-    */
+    
         box-shadow: var(--elevation-right-1);
     
         border-radius: 40px;
@@ -142,9 +163,9 @@
         
     }
     .GabiAndSofiSection .Stack  div.Positioned:nth-of-type(1) picture{
-        inline-size: 90%;
+        inline-size: 85%;
         block-size: 70%;
-        margin-top: 14px;
+        margin-top: 28px;
 
         
     }
@@ -168,7 +189,9 @@
         display: flex;
         justify-content: center;    
     
-        margin-inline-end: 8px;
+        position: absolute;
+        top: 330px;
+        left: 20px;
     
         box-shadow: var(--elevation-right-1);
     
@@ -184,7 +207,7 @@
         inline-size: 85%;
         block-size: 68%;
     
-        margin-top: 14px;
+        margin-top: 32px;
     
         object-fit: cover;
         border-radius: 4px;
@@ -199,8 +222,9 @@
         margin: 0;
     
         position:absolute;
-        bottom: 0px;
-        left: -32px;
+        bottom: 100px;
+        left: -75px;
+
         
         z-index: 2;
     
@@ -217,19 +241,17 @@
         block-size: 126px;
     
         position: absolute;
-        bottom: -15px;
+        bottom: -80px;
         z-index: 1;
     
         background-color: var(--primary-color);
     
-        transform:rotateZ(1deg) rotateX(180deg);
+        transform:rotateZ(1deg) rotateX(180deg) scale(1);
         
         mask-image: url("./../../../assets/svg/Motivo para separacion 2.svg");
         mask-repeat: no-repeat;
-        mask-size: 100%;
-        mask-position: -100px;
-    
-        transform: scale(1);
+        mask-size: 120%;
+        mask-position: center;
 
     }
     
