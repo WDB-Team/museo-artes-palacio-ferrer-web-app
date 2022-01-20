@@ -19,7 +19,7 @@ export default class FooterContainer extends Component {
                     <li><Link to="/recorridoVirtual">Recorrido Virtual</Link></li>
                     <li><Link to="">Reservas</Link></li>
                     <li><Link to="">Contacto</Link></li>
-                    <li><a href="">Pagina de Facebook</a></li>
+                    <li><a href="https://www.facebook.com/MuseoDeLasArtesPalacioFerrer/">Pagina de Facebook</a></li>
                 </ul>
 
             </footer>
