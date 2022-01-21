@@ -1,6 +1,6 @@
 .FooterContainer{
     inline-size: 100%;
-    block-size: 350px;
+    block-size: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,14 +8,16 @@
     background-color: var(--primary-color);
 
     position: relative;
-    z-index: 100;
+    z-index: 2;
 }
 
 .FooterContainer .Contact{
 
+    inline-size: 95%;
+
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 
     color: white;
 
@@ -23,12 +25,19 @@
 
 .FooterContainer .Contact h4{
     margin-block-end: 10px;
+    
+    text-align: center;
+    font-size: 22px;
+}
 
-    font-size: 18px;
+.FooterContainer .Contact span{
+    font-weight: 700;
 }
 
 .FooterContainer .Contact p{
+    margin-block-start: 2px;
     padding-inline-start: 20px;
+    font-size: 16px;
 }
 
 .FooterContainer ul{
@@ -39,8 +48,8 @@
     align-items: center;
     justify-content: space-around;
 
-    margin-block-start: 40px;
-
+    margin-block-start: 30px;
+    margin-block-end: 15px;
     list-style: none;
 
 }

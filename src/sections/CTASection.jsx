@@ -14,7 +14,7 @@ export default class CTASection extends Component {
                     <Link className="Button" to="/recorridoVirtual"><span>Iniciar Recorrido Virtual</span> </Link>
                 </div>
 
-                <Link className="ReservarRecorridoButton" to="/reservacion">Reservar Recorrido</Link>
+                <Link className="ReservarRecorridoButton" to="/reservaciones">Reservar Recorrido</Link>
 
             </div>
         )

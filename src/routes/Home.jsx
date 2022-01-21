@@ -54,7 +54,7 @@ export default class Home extends Component {
     }
 
     componentDidMount(){
-        document.querySelector(".App").scrollTo(0,0);
+        document.querySelector("html").scrollTo(0,0);
         this.intersectionObserverHero = new IntersectionObserver(this.onObserver,{threshold : 0.5 });
         this.intersectionObserverHero.observe(this.getHeroSectionRef().getRoot());
  

@@ -36,7 +36,7 @@ export default class BeginActionsSection extends Component {
                         reservar siempre que venga dentro del horario. Pero la reserva 
                         sirve para planificarnos y brindarles el mejor servicio
                     </p>
-                    <Link className="Button" to="">Reservar</Link>
+                    <Link className="Button" to="/reservaciones">Reservar</Link>
                 </div>
                 </div>
             </section>

@@ -12,7 +12,7 @@ export default class RecorridoVirtual extends Component {
     }
 
     componentDidMount(){
-        document.querySelector(".App").scrollTo(0,0);
+        document.querySelector("html").scrollTo(0,0);
     }
 
 }

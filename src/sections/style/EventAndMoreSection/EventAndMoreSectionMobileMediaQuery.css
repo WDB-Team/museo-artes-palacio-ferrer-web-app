@@ -6,6 +6,7 @@
         z-index: 2;
     }
 
+
     .EventAndMoreSection .Content .Stack{
     
         inline-size: 100%;
@@ -16,6 +17,12 @@
         left: -20px;
         top: 20px;
         z-index: 1;
+    }
+
+    .EventAndMoreSection .Content p{
+
+        inline-size: 80%;
+    
     }
 
     .EventAndMoreSection .Content .SocialMedia h3{
@@ -42,6 +49,12 @@
         z-index: 1;
     }
 
+    .EventAndMoreSection .Content p{
+
+        inline-size: 70%;
+    
+    }
+
     .EventAndMoreSection .Content .SocialMedia h3{
 
     
@@ -59,7 +72,7 @@
         
         z-index: 2;
     
-        line-height: 24px;
+        line-height: 30px;
         color: #1E2226;
         font-weight: 600;
         font-size: 18px;
@@ -93,13 +106,13 @@
     .EventAndMoreSection .Content p{
 
         margin-block-start: 40px;
-        inline-size: 60%;
+        inline-size: 50%;
   
     
-        line-height: 28px;
+        line-height: 30px;
     
         font-weight: 500;
-        font-size: 20px;
+        font-size: 18px;
     
     }
     .EventAndMoreSection .Content .SocialMedia h3{

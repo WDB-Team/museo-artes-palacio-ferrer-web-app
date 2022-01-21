@@ -48,11 +48,17 @@
 
     .GabiAndSofiSection .Content p{
 
+        margin-block-start: 20px;
+        margin-block-end: 20px;
         inline-size: 50%;
+
+        font-size: 18px;
+        line-height: 30px;
     }
     
     .GabiAndSofiSection .Stack{
 
+        margin-block-start: 100px;
         margin-block-end: 25px;
     }
 

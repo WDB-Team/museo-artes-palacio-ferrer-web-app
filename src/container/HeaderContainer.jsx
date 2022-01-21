@@ -35,8 +35,8 @@ export default class HeaderContainer extends Component {
                         <ul>
                             <li><Link to="/" onClick={this.onClose}>Home</Link></li>
                             <li><Link to="/recorridoVirtual" onClick={this.onClose}>Recorrido Virtual</Link></li>
-                            <li><Link to="" >Reservas</Link></li>
-                            <li><Link to="" >Contacto</Link></li>
+                            <li><Link to="/reservaciones" onClick={this.onClose} >Reservar Recorrido</Link></li>
+                            <li><Link to="" >Acerca del Palacio</Link></li>
                         </ul>
                         <div className="DecoratedImage"></div>
                     </nav>

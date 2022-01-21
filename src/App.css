@@ -52,7 +52,7 @@ html{
 }
 
 .App{
-    block-size: 100vh;
+    block-size: auto;
     inline-size: 100vw;
 
     background-color: var(--background);

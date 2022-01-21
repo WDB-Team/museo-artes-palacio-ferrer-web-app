@@ -9,6 +9,7 @@ import FooterContainer from './container/FooterContainer';
 
 import Home from './routes/Home';
 import RecorridoVirtual from './routes/RecorridoVirtual';
+import Reservaciones from './routes/Reservaciones';
 
 export default class App extends Component {
   
@@ -28,6 +29,7 @@ export default class App extends Component {
           <Routes>
             <Route path="/" element={<Home headerRef={this.headerRef} />} />
             <Route path="recorridoVirtual" element={<RecorridoVirtual headerRef={this.headerRef} />} />
+            <Route path="reservaciones" element={<Reservaciones/>} />
           </Routes>
           <FooterContainer />
         </BrowserRouter>
