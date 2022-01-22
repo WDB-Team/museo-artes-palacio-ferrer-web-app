@@ -8,11 +8,14 @@ export default class Reservaciones extends Component {
         e.preventDefault();
 
         console.log(document.querySelector("#Name"));
-        await this.send(document.querySelector("#Name").value,
+        let response = await this.send(document.querySelector("#Name").value,
                         document.querySelector("#Correo").value,
                         document.querySelector("#Des").value,
                         document.querySelector("#Fecha").value,
                         document.querySelector("#Tel").value);
+    
+        alert((!response.error)?"Peticion Enviada":"Hubo un error");
+                        
     }
 
     render() {
@@ -80,10 +83,11 @@ export default class Reservaciones extends Component {
             }
     
             var response = await fetch('https://museum-backend-cuba.herokuapp.com/bookings', init);
-    
+            
             if(response.ok) {
                 var respuesta = await response.json();
                 console.log(respuesta);
+                return respuesta;
             }
         } catch (error) {
             console.log(error);

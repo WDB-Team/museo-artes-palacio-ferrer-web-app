@@ -1,7 +1,7 @@
 .Reservaciones{
     padding-block-start: 66px;
     inline-size: 100%;
-    block-size: 100vh;
+    block-size: 800px;
 
     display: flex;
     flex-direction: column;
